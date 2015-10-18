@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:sch="http://www.ascc.net/xml/schematron" 
+   xmlns="http://standaarden.overheid.nl/owms/terms/"
+   xmlns:overheid="http://standaarden.overheid.nl/owms/terms/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   targetNamespace="http://standaarden.overheid.nl/owms/terms/" 
+   elementFormDefault="qualified">
+
+    <!-- File: overheid-elem.xsd
+          Function: this XML-scheme defines all elements in the overheid namespace that are part of the metadata standard 
+          for Dutch government information: the Overheid.nl Web Metadata Standaard (OWMS).
+          More information: see standaarden.overheid.nl. -->
+
+
+   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml-att.xsd"/>
+
+   <xs:simpleType name="NonEmptyString">
+      <xs:restriction base="xs:string">
+         <xs:minLength value="1"/>
+      </xs:restriction>
+   </xs:simpleType>
+   
+   <xs:simpleType name="SchemeName">
+      <xs:restriction base="xs:QName">
+         <xs:pattern value="(overheid|\p{Ll}+):\p{Lu}\p{L}+"/>
+      </xs:restriction>
+   </xs:simpleType>
+   
+   <xs:complexType name="CVorPointer">
+      <xs:annotation>
+         <xs:documentation>
+            
+         </xs:documentation>
+      </xs:annotation>
+      <xs:simpleContent>
+         <xs:extension base="xs:string">
+            <xs:attribute name="scheme" type="SchemeName" use="optional"/>
+            <xs:attribute name="resourceIdentifier" use="optional"/>
+         </xs:extension>
+      </xs:simpleContent>
+   </xs:complexType>
+   
+   <xs:element name="abbreviation" type="FreeText">
+      <xs:annotation>
+         <xs:documentation>Afgekorte titel.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="isRatifiedBy" type="CVorPointer">
+      <xs:annotation>
+         <xs:documentation>Beslisser.</xs:documentation>
+         <xs:appinfo><!--TODO: Constraint checking van element content op basis van waarde attribuut door schematron--></xs:appinfo>
+      </xs:annotation>
+   </xs:element>
+   
+   <xs:element name="authority" type="CVorPointer">
+      <xs:annotation>
+         <xs:documentation>Bevoegd gezag.</xs:documentation>
+         <xs:appinfo><!--TODO: Constraint checking van element content op basis van waarde attribuut door schematron--></xs:appinfo>
+      </xs:annotation>
+   </xs:element>
+   
+   <xs:complexType name="FreeText">
+      <xs:annotation>
+         <xs:documentation>
+            
+         </xs:documentation>
+      </xs:annotation>
+      <xs:simpleContent>
+         <xs:extension base="NonEmptyString">
+            <xs:attribute ref="xml:lang" use="optional"/>
+         </xs:extension>
+      </xs:simpleContent>
+   </xs:complexType>
+
+    <!-- rechtsgebied toegevoegd voor wti.0.36 -->
+    <xs:element name="rechtsgebied">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <!-- overheidsdomein toegevoegd voor wti.0.36 -->
+    <xs:element name="overheidsdomein">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <!-- onderwerpVerdrag toegevoegd voor wti.0.36 -->
+    <xs:element name="onderwerpVerdrag">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+
+</xs:schema>

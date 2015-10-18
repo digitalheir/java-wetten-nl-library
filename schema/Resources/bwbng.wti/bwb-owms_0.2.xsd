@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	0.2 2013-06-20  Namespace gewijzigd naar 
+http://standaarden.overheid.nl/bwb/owms/
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:sch="http://www.ascc.net/xml/schematron"
+    xmlns:owms="http://standaarden.overheid.nl/owms/structure/"
+    xmlns:overheid="http://standaarden.overheid.nl/owms/terms/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    targetNamespace="http://standaarden.overheid.nl/bwb/owms/" elementFormDefault="qualified">
+    
+    <xs:import namespace="http://purl.org/dc/terms/" schemaLocation="dcterms-elem-plugin.xsd"/>
+    <xs:import namespace="http://standaarden.overheid.nl/owms/terms/" schemaLocation="overheid-elem-plugin.xsd"/>
+    <xs:annotation>
+        <xs:documentation>
+        	Initiele versie afgeleid van http://standaarden.overheid.nl/owms/4.0/xsd/plugin/owms-struct-plugin.xsd.
+        	Cardinaliteit van dcterms:type aangepast.
+        </xs:documentation>
+    </xs:annotation>
+    <xs:element name="meta">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kern">
+                    <!-- Owmskern defines the properties that are mandatory or mandatory if applicable under owms 
+                    Elements cannot be repeated inside owmskern. -->
+                    <xs:complexType>
+                        <xs:sequence>
+                            
+                            <!-- properties in the dcterms namespace -->
+                            <xs:element ref="dcterms:identifier"/>
+                            <xs:element ref="dcterms:title"/>
+                            <xs:element ref="dcterms:language"/>
+                            <xs:element ref="dcterms:type" maxOccurs="unbounded"/>
+                            <xs:element ref="dcterms:creator" minOccurs="0"/>
+                            <xs:element ref="dcterms:modified"/>
+                            <xs:element ref="dcterms:spatial" minOccurs="0"/>
+                            <xs:element ref="dcterms:temporal" minOccurs="0"/>
+                            
+                            <!-- properties in the overheid namespace -->
+                            <xs:element ref="overheid:authority" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="mantel" minOccurs="0">
+                    <xs:complexType>
+                        <!-- owmskern defines all other properties that are defined under owms -->
+                        <xs:choice maxOccurs="unbounded">
+                            <!-- properties in the overheid namespace -->
+                            <xs:element ref="overheid:abbreviation"/>
+                            <xs:element ref="overheid:isRatifiedBy"/>                         
+
+                            <!-- properties in the dcterms namespace -->
+                            <xs:element ref="dcterms:abstract"/>
+                            <xs:element ref="dcterms:accessRights"/>
+                            <xs:element ref="dcterms:alternative"/>
+                            <xs:element ref="dcterms:audience"/>
+                            <xs:element ref="dcterms:available"/>
+                            <xs:element ref="dcterms:conformsTo"/>
+                            <xs:element ref="dcterms:contributor"/>
+                            <xs:element ref="dcterms:coverage"/>
+                            <xs:element ref="dcterms:created"/>
+                            <xs:element ref="dcterms:date"/>
+                            <xs:element ref="dcterms:dateAccepted"/>
+                            <xs:element ref="dcterms:dateCopyrighted"/>
+                            <xs:element ref="dcterms:dateSubmitted"/>
+                            <xs:element ref="dcterms:description"/>
+                            <xs:element ref="dcterms:educationLevel"/>
+                            <xs:element ref="dcterms:extent"/>
+                            <xs:element ref="dcterms:format"/>
+                            <xs:element ref="dcterms:hasFormat"/>
+                            <xs:element ref="dcterms:hasPart"/>
+                            <xs:element ref="dcterms:hasVersion"/>
+                            <xs:element ref="dcterms:instructionalMethod"/>
+                            <xs:element ref="dcterms:isFormatOf"/>
+                            <xs:element ref="dcterms:isPartOf"/>
+                            <xs:element ref="dcterms:isReferencedBy"/>
+                            <xs:element ref="dcterms:isReplacedBy"/>
+                            <xs:element ref="dcterms:isRequiredBy"/>
+                            <xs:element ref="dcterms:isVersionOf"/>
+                            <xs:element ref="dcterms:issued"/>
+                            <xs:element ref="dcterms:license"/>
+                            <xs:element ref="dcterms:mediator"/>
+                            <xs:element ref="dcterms:provenance"/>
+                            <xs:element ref="dcterms:publisher"/>
+                            <xs:element ref="dcterms:references"/>
+                            <xs:element ref="dcterms:relation"/>
+                            <xs:element ref="dcterms:replaces"/>
+                            <xs:element ref="dcterms:requires"/>
+                            <xs:element ref="dcterms:rights"/>
+                            <xs:element ref="dcterms:rightsHolder"/>
+                            <xs:element ref="dcterms:source"/>
+                            <xs:element ref="dcterms:subject"/>
+                            <xs:element ref="dcterms:tableOfContents"/>
+                            <xs:element ref="dcterms:valid"/>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- zolang de rubricering nog niet volledig is ingevoerd zijn deze velden optioneel -->
+                <xs:element name="bwb" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="overheid:rechtsgebied" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element ref="overheid:overheidsdomein" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element ref="overheid:onderwerpVerdrag" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="config" type="xs:anyURI" use="optional"/>
+            <xs:attribute name="owms-version" type="xs:token" fixed="4.0" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    
+</xs:schema>

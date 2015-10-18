@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<!-- 2013-01-30 extra Work metadata wti_locatie-->
+
+  <!-- 2013-05-29 extra Work metadata t.b.v. datums regeling
+		datum_totstandkoming
+		datum_voorlopige_toepassing
+		datum_inwerkingtreding
+		datum_materiele_uitwerking
+		datum_intrekking
+		datum_terugwerking_vt
+		scope_terugwerking_vt
+		datum_terugwerking_iwt
+		scope_terugwerking_iwt
+		datum_terugwerking_int
+		scope_terugwerking_int
+	-->
+  
+  <!-- Aanpassing van xs:sequence naar xs:all zodat de volgorde er niet meer toe doet -->
+
+  <xs:redefine schemaLocation="..\_schema\_manifest_1.08.xsd">
+        <xs:complexType name="WorkMetadata">
+          <xs:complexContent>
+            <xs:extension base="WorkMetadata">
+              <xs:all>
+                <xs:element name="wti_locatie" type="xs:string" minOccurs="0"/>
+                <xs:element name="datum_totstandkoming" type="xs:date" minOccurs="0"/>
+                <xs:element name="datum_voorlopige_toepassing" type="xs:date" minOccurs="0"/>
+                <xs:element name="datum_inwerkingtreding" type="xs:date" minOccurs="0"/>
+                <xs:element name="datum_materiele_uitwerking" type="xs:date" minOccurs="0"/>
+                <xs:element name="datum_intrekking" type="xs:date" minOccurs="0"/>
+                <xs:element name="datum_terugwerking_vt" type="xs:date" minOccurs="0"/>
+                <xs:element name="scope_terugwerking_vt" type="xs:string" minOccurs="0" default="tot-en-met"/>
+                <xs:element name="datum_terugwerking_iwt" type="xs:date" minOccurs="0"/>
+                <xs:element name="scope_terugwerking_iwt" type="xs:string" minOccurs="0" default="tot-en-met"/>
+                <xs:element name="datum_terugwerking_int" type="xs:date" minOccurs="0"/>
+                <xs:element name="scope_terugwerking_int" type="xs:string" minOccurs="0" default="tot-en-met"/>
+                <xs:element name="tijdstip_wti_toegevoegd" type="xs:dateTime" minOccurs="0"/>
+                <xs:element name="tijdstip_laatste_wijziging_wti" type="xs:dateTime" minOccurs="0"/>
+              </xs:all>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+        <xs:complexType name="ExpressionMetadata">
+          <xs:complexContent>
+            <xs:extension base="ExpressionMetadata">
+              <xs:all>
+                <xs:element name="datum_inwerkingtreding" type="xs:date"/>
+                <xs:element name="einddatum" type="xs:date"/>
+                <xs:element name="zichtdatum_start" type="xs:date"/>
+                <xs:element name="zichtdatum_eind" type="xs:date"/>
+                <xs:element minOccurs="0" name="aankondiging" type="xs:boolean"/>
+                <xs:element name="tijdstip_toegevoegd" type="xs:dateTime" minOccurs="0"/>
+                <xs:element name="tijdstip_laatste_wijziging" type="xs:dateTime" minOccurs="0"/>
+              </xs:all>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+        <xs:complexType name="ManifestationMetadata">
+          <xs:complexContent>
+            <xs:extension base="ManifestationMetadata">
+              <xs:all>
+                <xs:element name="hashcode" minOccurs="0" type="xs:string" />
+                <xs:element name="size" minOccurs="0" type="xs:string" />
+              </xs:all>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+  </xs:redefine>
+</xs:schema>
