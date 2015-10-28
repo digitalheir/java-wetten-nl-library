@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation>1.08 / 2013-11-29</xs:documentation>
+    <xs:documentation>subitem toegevoegd voor toepassing bij samengestelde resources (plaatjes in HTML, etc.)</xs:documentation>
+    <xs:documentation>
+      Dit is het basisschema voor _manifest files. Het is een abstract schema (het wordt nooit rechtstreeks gebruikt door instances). Een lokaal manifest.xsd roept dit abstracte schema
+      via xs:redefine aan. Het lokale schema heeft dan de keuze om extra informatie te definieren voor een bepaalde area.
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:complexType name="WorkMetadata">
+    <xs:all/>
+  </xs:complexType>
+
+  <xs:complexType name="ExpressionMetadata">
+    <xs:all/>
+  </xs:complexType>
+
+  <xs:complexType name="ManifestationMetadata">
+    <xs:all/>
+  </xs:complexType>
+
+  <xs:element name="work">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="WorkMetadata" name="metadata"/>
+        <xs:element maxOccurs="unbounded" ref="expression" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="label" use="required" type="xs:string"/>
+      <xs:attribute name="gegenereerd" use="required" type="xs:dateTime"/>
+
+      <!-- optionele gereserveerde metadata -->
+      <xs:attribute name="_latestItem" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Deze wordt door de API automatisch gevuld. Afnemers kunnen gebruik maken van "virtuele" folder {work}/latestItem/</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="_currentItem" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Deze wordt door de client aangeboden. Afnemers kunnen gebruik maken van "virtuele" folder {work}/currentItem/</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="_isReplacedBy" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="expression">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="ExpressionMetadata" name="metadata"/>
+        <xs:element maxOccurs="unbounded" ref="manifestation"/>
+      </xs:sequence>
+      <xs:attribute name="label" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="manifestation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="ManifestationMetadata" name="metadata"/>
+        <xs:element maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="label" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="subitem" minOccurs="0" maxOccurs="unbounded"/>
+        <!-- 1.08 subitem toegevoegd -->
+      </xs:sequence>
+      <xs:attribute name="label" use="required" type="xs:string"/>
+      <xs:attribute name="_deleted" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="subitem">
+    <xs:complexType>
+      <xs:attribute name="label" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<work xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      xsi:noNamespaceSchemaLocation="../_manifest.xsd" label="BWBR0002458"
+      gegenereerd="2015-03-05T12:02:11.2062766+01:00" _latestItem="2015-01-01_0/xml/BWBR0002458_2015-01-01_0.xml">
+    <metadata>
+        <datum_inwerkingtreding>1966-05-01</datum_inwerkingtreding>
+        <tijdstip_wti_toegevoegd>2015-02-18T07:39:49+01:00</tijdstip_wti_toegevoegd>
+        <tijdstip_laatste_wijziging_wti>2015-03-05T12:01:54+01:00</tijdstip_laatste_wijziging_wti>
+        <wti_locatie>BWBR0002458.WTI</wti_locatie>
+    </metadata>
+    <expression label="2000-11-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2000-11-01</datum_inwerkingtreding>
+            <einddatum>2002-06-30</einddatum>
+            <zichtdatum_start>2000-11-01</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:40+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:40+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    6f9fb47f1f18d1fc19b8c24fa7ef9d4bf1f37b5dc7d525742393f131b0a152601d9b8272bff50ab458935c14df674c3b2340a3c3b8a5d30a340d7ddcd88c1c9c
+                </hashcode>
+                <size>236704</size>
+            </metadata>
+            <item label="BWBR0002458_2000-11-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2002-07-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2002-07-01</datum_inwerkingtreding>
+            <einddatum>2003-05-31</einddatum>
+            <zichtdatum_start>2002-07-01</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:41+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:41+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    b08c6aa031b81fda657456d63fc3c9f619d5c40312872af37ad0701a7f6c9536f72262dc64db96a204f8f6c0de88e60688dad51c89a458e42d8f208deaf50757
+                </hashcode>
+                <size>233911</size>
+            </metadata>
+            <item label="BWBR0002458_2002-07-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2003-06-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2003-06-01</datum_inwerkingtreding>
+            <einddatum>2004-11-30</einddatum>
+            <zichtdatum_start>2003-06-01</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:42+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:42+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    f0fd40e334738c80468a9eb73b3cb26645433f575c85be21a4ecb34f261cbfda8c923e5a724b281926e915ca0cdb2e19b52804b825b1ea2637dc9f621ab937dd
+                </hashcode>
+                <size>236051</size>
+            </metadata>
+            <item label="BWBR0002458_2003-06-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2004-12-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2004-12-01</datum_inwerkingtreding>
+            <einddatum>2005-06-30</einddatum>
+            <zichtdatum_start>2004-12-01</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:43+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:43+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    3b963c5a2262b7023fd5eeec66d51d9aa54d8e17aa68be31ed8a32a9ef799633733f6ea7bf2e1cf704aef923740df588a7e8ed7bbed6212fa7ec122e772b7aa6
+                </hashcode>
+                <size>279088</size>
+            </metadata>
+            <item label="BWBR0002458_2004-12-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2005-07-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2005-07-01</datum_inwerkingtreding>
+            <einddatum>2005-07-30</einddatum>
+            <zichtdatum_start>2005-07-01</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:43+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:43+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    dc21bdbf8f92ae94a8674e6f6277be42dcf01403235dd986c73429d862cf5b0928ac4a2fcea3a434dd1089c6d1de38dae1f46deb117af46b966329902cecbe75
+                </hashcode>
+                <size>277390</size>
+            </metadata>
+            <item label="BWBR0002458_2005-07-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2005-07-31_0">
+        <metadata>
+            <datum_inwerkingtreding>2005-07-31</datum_inwerkingtreding>
+            <einddatum>2005-09-13</einddatum>
+            <zichtdatum_start>2005-07-31</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:44+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:44+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    f4130de31c141e176442ee1de7b589fff44888a3cd3e715e6b27b0e0b7da2619abfe9c293914b2694c74b4299551ed5f9e17672d178dc9e368b4ac9a46fd11a2
+                </hashcode>
+                <size>277667</size>
+            </metadata>
+            <item label="BWBR0002458_2005-07-31_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2005-09-14_0">
+        <metadata>
+            <datum_inwerkingtreding>2005-09-14</datum_inwerkingtreding>
+            <einddatum>2009-06-30</einddatum>
+            <zichtdatum_start>2005-09-14</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:45+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:45+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    01e5f3448dc35f2227be5640decb8aeef341d061510b63ed2d6995a111d2bf098caa8fa1180bef613f34007068292a1328dab92640869df3e4a5a36b20558c31
+                </hashcode>
+                <size>275542</size>
+            </metadata>
+            <item label="BWBR0002458_2005-09-14_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2009-07-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2009-07-01</datum_inwerkingtreding>
+            <einddatum>2010-07-13</einddatum>
+            <zichtdatum_start>2009-07-01</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:46+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:46+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    07dae8d80470b92870c6a32e95f89d7f6b81895d31d54d92cfd4de99f165980962d16672eb5f60c5f8185461c29ccc42c79bce0b2384b86e645972bb93e84e27
+                </hashcode>
+                <size>256901</size>
+            </metadata>
+            <item label="BWBR0002458_2009-07-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2010-07-14_0">
+        <metadata>
+            <datum_inwerkingtreding>2010-07-14</datum_inwerkingtreding>
+            <einddatum>2011-12-31</einddatum>
+            <zichtdatum_start>2010-07-14</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:46+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:46+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    28ff9ffdae0267cea2f4b65354a037cde1a04e61dff8b8886671226b962491b0bf51700347db1ca5a67231c9d7d9f7b3c270b8c44830b9e7eb4d76b3dc6cefe1
+                </hashcode>
+                <size>255293</size>
+            </metadata>
+            <item label="BWBR0002458_2010-07-14_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2012-01-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2012-01-01</datum_inwerkingtreding>
+            <einddatum>2012-12-31</einddatum>
+            <zichtdatum_start>2012-01-01</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:47+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:47+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    737da7fa2c2ceb4ad6d9ff4b9b7c63998e46bf22674412377192688c6b97b8a651b076923acb233aa0528737dcde6bcae9fd75550a44c5ce69edfbe93ad4e3ad
+                </hashcode>
+                <size>256091</size>
+            </metadata>
+            <item label="BWBR0002458_2012-01-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2013-01-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2013-01-01</datum_inwerkingtreding>
+            <einddatum>2013-12-31</einddatum>
+            <zichtdatum_start>2013-01-01</zichtdatum_start>
+            <zichtdatum_eind>2014-02-14</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:48+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:48+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    f77263a2f7c06991f9dd08f342a2b50fd39e4e645bf703b3a68c8507ae68c55e0d06a90ee5ea00c3c21525735c0005cc6ce872b65283bb73b33dde6fec78ec7f
+                </hashcode>
+                <size>279741</size>
+            </metadata>
+            <item label="BWBR0002458_2013-01-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2014-01-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2014-01-01</datum_inwerkingtreding>
+            <einddatum>2014-02-14</einddatum>
+            <zichtdatum_start>2014-01-01</zichtdatum_start>
+            <zichtdatum_eind>2014-02-14</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:49+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:49+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    17c0a356c2a3627aecf667b2de91f1bbbbccb7492e77358acf3771a5a80d2d91e8525d1880d69a143007bd15a63d740f7451f168e76c80bda061b776b143bcdf
+                </hashcode>
+                <size>284451</size>
+            </metadata>
+            <item label="BWBR0002458_2014-01-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2014-02-15_0">
+        <metadata>
+            <datum_inwerkingtreding>2014-02-15</datum_inwerkingtreding>
+            <einddatum>2014-12-31</einddatum>
+            <zichtdatum_start>2014-02-15</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:49+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:49+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    e4cb6088f1a33b7b2848e075c0e353138bd73104220d5e5c47d5aaca09c30355e6058b98821023c3434e86b6ccbd460dc741a86542c10ec17fa9c176dbefbe9f
+                </hashcode>
+                <size>286415</size>
+            </metadata>
+            <item label="BWBR0002458_2014-02-15_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2013-01-01_1">
+        <metadata>
+            <datum_inwerkingtreding>2013-01-01</datum_inwerkingtreding>
+            <einddatum>2013-12-31</einddatum>
+            <zichtdatum_start>2014-02-15</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:50+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:50+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    108bce436163cb3522cefb71c32c4dd80e175ed3ef2915eede0dc5597c0fa4eb209ae79fb6d59333b59ce357eb4eb06998dccd50494699615eca7d9f84856d50
+                </hashcode>
+                <size>285263</size>
+            </metadata>
+            <item label="BWBR0002458_2013-01-01_1.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2014-01-01_1">
+        <metadata>
+            <datum_inwerkingtreding>2014-01-01</datum_inwerkingtreding>
+            <einddatum>2014-02-14</einddatum>
+            <zichtdatum_start>2014-02-15</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:51+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:51+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    22dc6859c823c8a627343433b0c9239fa4dfae4c96ee2c350a0193b35f500a5a7aba2cc7fda985d8b57977f42e91226a3ed32a97d2ac4423cd845a0880fc6f10
+                </hashcode>
+                <size>289973</size>
+            </metadata>
+            <item label="BWBR0002458_2014-01-01_1.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+    <expression label="2015-01-01_0">
+        <metadata>
+            <datum_inwerkingtreding>2015-01-01</datum_inwerkingtreding>
+            <einddatum>9999-12-31</einddatum>
+            <zichtdatum_start>2015-01-01</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-17T17:25:52+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-17T17:25:52+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    a73fd6da8ca305fd59f00f29b22e9b6c6bac1b292d3741518dd8fcafec6c3e4b247768d2cb1dde03d4ebcb68bc3735b786d0b0d4b3ff0ea429695d94cba0b027
+                </hashcode>
+                <size>286349</size>
+            </metadata>
+            <item label="BWBR0002458_2015-01-01_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+</work>
