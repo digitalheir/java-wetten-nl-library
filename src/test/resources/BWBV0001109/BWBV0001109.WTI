@@ -1,0 +1,4211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wetstechnische-informatie xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheid="http://standaarden.overheid.nl/owms/terms/" xmlns:owms="http://standaarden.overheid.nl/bwb/owms/" xsi:noNamespaceSchemaLocation="https://repository.officiele-overheidspublicaties.nl/Schema/BWB-WTI/2015-1/xsd/wti_2015-1.xsd" bwb-id="BWBV0001109">
+  <algemene-informatie gegenereerd="2015-02-19T09:28:28">
+    <eerstverantwoordelijke>Buitenlandse Zaken</eerstverantwoordelijke>
+    <niet-officiele-titels>
+      <niet-officiele-titel>Overeenkomst tussen het Koninkrijk der Nederlanden en de Verenigde Staten van Amerika tot het vermijden van dubbele belasting en het voorkomen van het ontgaan van belasting met betrekking tot belastingen naar het inkomen</niet-officiele-titel>
+    </niet-officiele-titels>
+    <citeertitel status="redactioneel">Overeenkomst tussen het Koninkrijk der Nederlanden en de Verenigde Staten van Amerika tot het vermijden van dubbele belasting en het voorkomen van het ontgaan van belasting met betrekking tot belastingen naar het inkomen</citeertitel>
+    <soort-regeling>verdrag</soort-regeling>
+    <identificatienummer>BWBV0001109</identificatienummer>
+    <totstandkoming>
+      <plaats>Washington</plaats>
+      <datum>1992-12-18</datum>
+    </totstandkoming>
+    <extra-informatie>005134</extra-informatie>
+    <rechtsgebieden>
+      <rechtsgebied>
+        <hoofdgebied>Arbitrage</hoofdgebied>
+      </rechtsgebied>
+      <rechtsgebied>
+        <hoofdgebied>Belastingrecht</hoofdgebied>
+        <specifiekgebied>Internationale regelingen</specifiekgebied>
+      </rechtsgebied>
+    </rechtsgebieden>
+    <taxonomieen>
+      <taxonomie>Arbitrage</taxonomie>
+      <taxonomie>Belasting</taxonomie>
+    </taxonomieen>
+  </algemene-informatie>
+  <wijzigingen gegenereerd="2015-02-19T09:28:41">
+    <regeling>
+      <datum waarde="2004-12-28">
+        <details>
+          <betreft>wijziging</betreft>
+          <ontstaansbron>
+            <bron type="oorspronkelijk">
+              <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                <publicatiedatum>2004-06-30</publicatiedatum>
+                <publicatiejaar>2004</publicatiejaar>
+                <publicatienummer>166</publicatienummer>
+              </bekendmaking>
+            </bron>
+          </ontstaansbron>
+          <inwerkingtreding>
+            <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+              <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                <publicatiedatum>2005-01-13</publicatiedatum>
+                <publicatiejaar>2005</publicatiejaar>
+                <publicatienummer>4</publicatienummer>
+              </bekendmaking>
+            </bron>
+          </inwerkingtreding>
+        </details>
+      </datum>
+      <datum waarde="1993-12-31">
+        <details>
+          <betreft>nieuwe-regeling</betreft>
+          <ontstaansbron>
+            <bron type="oorspronkelijk">
+              <ondertekening>1993-12-01</ondertekening>
+              <bekendmaking soort="Trb">
+                <publicatiedatum>1993-06-07</publicatiedatum>
+                <publicatiejaar>1993</publicatiejaar>
+                <publicatienummer>77</publicatienummer>
+              </bekendmaking>
+            </bron>
+          </ontstaansbron>
+          <inwerkingtreding>
+            <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+              <bekendmaking soort="Trb">
+                <publicatiedatum>1993-12-31</publicatiedatum>
+                <publicatiejaar>1993</publicatiejaar>
+                <publicatienummer>202</publicatienummer>
+              </bekendmaking>
+            </bron>
+          </inwerkingtreding>
+        </details>
+        <details>
+          <betreft>wijziging</betreft>
+          <ontstaansbron>
+            <bron type="oorspronkelijk">
+              <bekendmaking soort="Trb">
+                <publicatiedatum>1993-12-01</publicatiedatum>
+                <publicatiejaar>1993</publicatiejaar>
+                <publicatienummer>184</publicatienummer>
+              </bekendmaking>
+            </bron>
+          </ontstaansbron>
+          <inwerkingtreding>
+            <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+              <bekendmaking soort="Trb">
+                <publicatiedatum>1993-12-31</publicatiedatum>
+                <publicatiejaar>1993</publicatiejaar>
+                <publicatienummer>202</publicatienummer>
+              </bekendmaking>
+            </bron>
+          </inwerkingtreding>
+        </details>
+      </datum>
+      <datum waarde="1992-12-18">
+        <details>
+          <betreft>nieuwe-regeling</betreft>
+          <ontstaansbron>
+            <bron type="oorspronkelijk">
+              <ondertekening>1993-12-01</ondertekening>
+              <bekendmaking soort="Trb">
+                <publicatiedatum>1993-06-07</publicatiedatum>
+                <publicatiejaar>1993</publicatiejaar>
+                <publicatienummer>77</publicatienummer>
+              </bekendmaking>
+            </bron>
+          </ontstaansbron>
+        </details>
+      </datum>
+    </regeling>
+    <regelingelementen>
+      <regelingelement label-id="10002305904">
+        <datum waarde="1993-12-31" versie-id="10002325562">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" versie-id="10002325562">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305914">
+        <datum waarde="1993-12-31" versie-id="10002325572">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" versie-id="10002325572">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305924">
+        <datum waarde="1993-12-31" versie-id="10002325582">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" versie-id="10002325582">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305934">
+        <datum waarde="2004-12-28" label="Artikel 1" versie-id="10004373572">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 1" versie-id="10002325592">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 1" versie-id="10002325592">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305944">
+        <datum waarde="2004-12-28" label="Artikel 2" versie-id="10004376012">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 2" versie-id="10002325602">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 2" versie-id="10002325602">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305954">
+        <datum waarde="1993-12-31" label="HOOFDSTUK I" versie-id="10002325612">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="HOOFDSTUK I" versie-id="10002325612">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305964">
+        <datum waarde="1993-12-31" label="Artikel 3" versie-id="10002325622">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 3" versie-id="10002325622">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305974">
+        <datum waarde="2004-12-28" label="Artikel 4" versie-id="10004373582">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 4" versie-id="10002325632">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 4" versie-id="10002325632">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305984">
+        <datum waarde="1993-12-31" label="Artikel 5" versie-id="10002325642">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 5" versie-id="10002325642">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002305994">
+        <datum waarde="1993-12-31" label="HOOFDSTUK II" versie-id="10002325652">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="HOOFDSTUK II" versie-id="10002325652">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306004">
+        <datum waarde="1993-12-31" label="Artikel 6" versie-id="10002325662">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 6" versie-id="10002325662">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306014">
+        <datum waarde="1993-12-31" label="Artikel 7" versie-id="10002325672">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 7" versie-id="10002325672">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306024">
+        <datum waarde="1993-12-31" label="Artikel 8" versie-id="10002325682">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 8" versie-id="10002325682">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306034">
+        <datum waarde="1993-12-31" label="Artikel 9" versie-id="10002325692">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 9" versie-id="10002325692">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306044">
+        <datum waarde="2004-12-28" label="Artikel 10" versie-id="10004373592">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 10" versie-id="10002325702">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 10" versie-id="10002325702">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306054">
+        <datum waarde="2004-12-28" label="Artikel 11" versie-id="10004374232">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 11" versie-id="10002325712">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 11" versie-id="10002325712">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306064">
+        <datum waarde="1993-12-31" label="Artikel 12" versie-id="10005298742">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-01</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>184</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing voor belastingjaren en -tijdvakken die aanvangen op of na 1 januari 1994 (Trb. 1994/6).</al>
+                <al>De wijziging is in werking getreden op 30 december 1993 (Trb. 1994/6).</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+          <details isvoorafgaand="true">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 12" versie-id="10005298742">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306074">
+        <datum waarde="1993-12-31" label="Artikel 13" versie-id="10005298752">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-01</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>184</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing voor belastingjaren en -tijdvakken die aanvangen op of na 1 januari 1994 (Trb. 1994/6).</al>
+                <al>De wijziging is in werking getreden op 30 december 1993 (Trb. 1994/6).</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+          <details isvoorafgaand="true">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 13" versie-id="10005298752">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306084">
+        <datum waarde="1993-12-31" label="Artikel 14" versie-id="10002325742">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 14" versie-id="10002325742">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306094">
+        <datum waarde="1993-12-31" label="Artikel 15" versie-id="10002325752">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 15" versie-id="10002325752">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306104">
+        <datum waarde="1993-12-31" label="Artikel 16" versie-id="10002325762">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 16" versie-id="10002325762">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306114">
+        <datum waarde="1993-12-31" label="Artikel 17" versie-id="10002325772">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 17" versie-id="10002325772">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306124">
+        <datum waarde="2004-12-28" label="Artikel 18" versie-id="10004376022">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 18" versie-id="10002325782">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 18" versie-id="10002325782">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306134">
+        <datum waarde="2004-12-28" label="Artikel 19" versie-id="10004374492">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 19" versie-id="10002325792">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 19" versie-id="10002325792">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306144">
+        <datum waarde="1993-12-31" label="Artikel 20" versie-id="10002325802">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 20" versie-id="10002325802">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306154">
+        <datum waarde="1993-12-31" label="Artikel 21" versie-id="10002325812">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 21" versie-id="10002325812">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306164">
+        <datum waarde="2004-12-28" label="Artikel 22" versie-id="10004376032">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 22" versie-id="10002325822">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 22" versie-id="10002325822">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306174">
+        <datum waarde="1993-12-31" label="Artikel 23" versie-id="10002325832">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 23" versie-id="10002325832">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306184">
+        <datum waarde="1993-12-31" label="HOOFDSTUK III" versie-id="10002325842">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="HOOFDSTUK III" versie-id="10002325842">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306194">
+        <datum waarde="2004-12-28" label="Artikel 24" versie-id="10004391712">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Alg">
+                <al>Abusievelijk is voor het eerste lid een wijzigingsopdracht geformuleerd die niet geheel juist is. </al>
+                <al>Abusievelijk voegt het Tractatenblad een tweede lid 4 toe.</al>
+              </opmerking>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 24" versie-id="10005298762">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-01</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>184</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing voor belastingjaren en -tijdvakken die aanvangen op of na 1 januari 1994 (Trb. 1994/6).</al>
+                <al>De wijziging is in werking getreden op 30 december 1993 (Trb. 1994/6).</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+          <details isvoorafgaand="true">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 24" versie-id="10005298762">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306204">
+        <datum waarde="2004-12-28" label="Artikel 25" versie-id="10004374222">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004/166).</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 25" versie-id="10005298772">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-01</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>184</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing voor belastingjaren en -tijdvakken die aanvangen op of na 1 januari 1994 (Trb. 1994/6).</al>
+                <al>De wijziging is in werking getreden op 30 december 1993 (Trb. 1994/6).</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+          <details isvoorafgaand="true">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 25" versie-id="10005298772">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306214">
+        <datum waarde="1993-12-31" label="HOOFDSTUK IV" versie-id="10002325872">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="HOOFDSTUK IV" versie-id="10002325872">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306224">
+        <datum waarde="2004-12-28" label="Artikel 26" versie-id="10004375992">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 26" versie-id="10005298792">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-01</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>184</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing voor belastingjaren en -tijdvakken die aanvangen op of na 1 januari 1994 (Trb. 1994/6).</al>
+                <al>De wijziging is in werking getreden op 30 december 1993 (Trb. 1994/6).</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+          <details isvoorafgaand="true">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 26" versie-id="10005298792">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306234">
+        <datum waarde="1993-12-31" label="Artikel 27" versie-id="10002325892">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 27" versie-id="10002325892">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306244">
+        <datum waarde="2004-12-28" label="Artikel 28" versie-id="10004374552">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 28" versie-id="10002325902">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 28" versie-id="10002325902">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306254">
+        <datum waarde="1993-12-31" label="Artikel 29" versie-id="10002325912">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 29" versie-id="10002325912">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306264">
+        <datum waarde="1993-12-31" label="Artikel 30" versie-id="10002325922">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 30" versie-id="10002325922">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306274">
+        <datum waarde="1993-12-31" label="Artikel 31" versie-id="10002325932">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 31" versie-id="10002325932">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306284">
+        <datum waarde="2004-12-28" label="Artikel 32" versie-id="10004376002">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb" urlidentifier="trb-2004-166">
+                  <publicatiedatum>2004-06-30</publicatiedatum>
+                  <publicatiejaar>2004</publicatiejaar>
+                  <publicatienummer>166</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb" urlidentifier="trb-2005-4">
+                  <publicatiedatum>2005-01-13</publicatiedatum>
+                  <publicatiejaar>2005</publicatiejaar>
+                  <publicatienummer>4</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing:</al>
+                <al>a.ter zake van bronbelastingen over bedragen betaald of uitgekeerd op of na  1 februari 2005, enb.ter zake van andere belastingen over belastingtijdvakken die beginnen op of na 1 januari 2005.</al>
+                <al>(Trb. 2004, 166)</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+        </datum>
+        <datum waarde="1993-12-31" label="Artikel 32" versie-id="10002325942">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 32" versie-id="10002325942">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306294">
+        <datum waarde="1993-12-31" label="Artikel 33" versie-id="10002325952">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 33" versie-id="10002325952">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306304">
+        <datum waarde="1993-12-31" label="Artikel 34" versie-id="10002325962">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 34" versie-id="10002325962">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306314">
+        <datum waarde="1993-12-31" label="Artikel 35" versie-id="10005298802">
+          <details isvoorafgaand="false">
+            <betreft>wijziging</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-01</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>184</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+            <opmerkingen>
+              <opmerking type="Inwtr">
+                <al>Is van toepassing voor belastingjaren en -tijdvakken die aanvangen op of na 1 januari 1994 (Trb. 1994/6).</al>
+                <al>De wijziging is in werking getreden op 30 december 1993 (Trb. 1994/6).</al>
+              </opmerking>
+            </opmerkingen>
+          </details>
+          <details isvoorafgaand="true">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 35" versie-id="10005298802">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306324">
+        <datum waarde="1993-12-31" label="Artikel 36" versie-id="10002325982">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 36" versie-id="10002325982">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306334">
+        <datum waarde="1993-12-31" label="HOOFDSTUK V" versie-id="10002325992">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="HOOFDSTUK V" versie-id="10002325992">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306344">
+        <datum waarde="1993-12-31" label="Artikel 37" versie-id="10002326002">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 37" versie-id="10002326002">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306354">
+        <datum waarde="1993-12-31" label="Artikel 38" versie-id="10002326012">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Artikel 38" versie-id="10002326012">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306364">
+        <datum waarde="1993-12-31" label="HOOFDSTUK VI" versie-id="10002326022">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="HOOFDSTUK VI" versie-id="10002326022">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306374">
+        <datum waarde="1993-12-31" versie-id="10002326032">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" versie-id="10002326032">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306384">
+        <datum waarde="1993-12-31" label="[B1]" versie-id="10002326042">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="[B1]" versie-id="10002326042">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306394">
+        <datum waarde="1993-12-31" versie-id="10002326052">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" versie-id="10002326052">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306404">
+        <datum waarde="1993-12-31" label="Nr. I[B2]" versie-id="10002326062">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Nr. I[B2]" versie-id="10002326062">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306414">
+        <datum waarde="1993-12-31" versie-id="10002326072">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" versie-id="10002326072">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306424">
+        <datum waarde="1993-12-31" label="Nr. II[B3]" versie-id="10002326082">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="Nr. II[B3]" versie-id="10002326082">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306434">
+        <datum waarde="1993-12-31" label="I" versie-id="10002326092">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="I" versie-id="10002326092">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306444">
+        <datum waarde="1993-12-31" label="II" versie-id="10002326102">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="II" versie-id="10002326102">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306454">
+        <datum waarde="1993-12-31" label="III" versie-id="10002326112">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="III" versie-id="10002326112">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306464">
+        <datum waarde="1993-12-31" label="IV" versie-id="10002326122">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="IV" versie-id="10002326122">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306474">
+        <datum waarde="1993-12-31" label="V" versie-id="10002326132">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="V" versie-id="10002326132">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306484">
+        <datum waarde="1993-12-31" label="VI" versie-id="10002326142">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="VI" versie-id="10002326142">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306494">
+        <datum waarde="1993-12-31" label="VII" versie-id="10002326152">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="VII" versie-id="10002326152">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306504">
+        <datum waarde="1993-12-31" label="VIII" versie-id="10002326162">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="VIII" versie-id="10002326162">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306514">
+        <datum waarde="1993-12-31" label="IX" versie-id="10002326172">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="IX" versie-id="10002326172">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306524">
+        <datum waarde="1993-12-31" label="X" versie-id="10002326182">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="X" versie-id="10002326182">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306534">
+        <datum waarde="1993-12-31" label="XI" versie-id="10002326192">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XI" versie-id="10002326192">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306544">
+        <datum waarde="1993-12-31" label="XII" versie-id="10002326202">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XII" versie-id="10002326202">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306554">
+        <datum waarde="1993-12-31" label="XIII" versie-id="10002326212">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XIII" versie-id="10002326212">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306564">
+        <datum waarde="1993-12-31" label="XIV" versie-id="10002326222">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XIV" versie-id="10002326222">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306574">
+        <datum waarde="1993-12-31" label="XV" versie-id="10002326232">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XV" versie-id="10002326232">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306584">
+        <datum waarde="1993-12-31" label="XVI" versie-id="10002326242">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XVI" versie-id="10002326242">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306594">
+        <datum waarde="1993-12-31" label="XVII" versie-id="10002326252">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XVII" versie-id="10002326252">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306604">
+        <datum waarde="1993-12-31" label="XVIII" versie-id="10002326262">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XVIII" versie-id="10002326262">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306614">
+        <datum waarde="1993-12-31" label="XIX" versie-id="10002326272">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XIX" versie-id="10002326272">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306624">
+        <datum waarde="1993-12-31" label="XX" versie-id="10002326282">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XX" versie-id="10002326282">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306634">
+        <datum waarde="1993-12-31" label="XXI" versie-id="10002326292">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXI" versie-id="10002326292">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306644">
+        <datum waarde="1993-12-31" label="XXII" versie-id="10002326302">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXII" versie-id="10002326302">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306654">
+        <datum waarde="1993-12-31" label="XXIII" versie-id="10002326312">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXIII" versie-id="10002326312">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306664">
+        <datum waarde="1993-12-31" label="XXIV" versie-id="10002326322">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXIV" versie-id="10002326322">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306674">
+        <datum waarde="1993-12-31" label="XXV" versie-id="10002326332">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXV" versie-id="10002326332">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306684">
+        <datum waarde="1993-12-31" label="XXVI" versie-id="10002326342">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXVI" versie-id="10002326342">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306694">
+        <datum waarde="1993-12-31" label="XXVII" versie-id="10002326352">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXVII" versie-id="10002326352">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306704">
+        <datum waarde="1993-12-31" label="XXVIII" versie-id="10002326362">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXVIII" versie-id="10002326362">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306714">
+        <datum waarde="1993-12-31" label="XXIX" versie-id="10002326372">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXIX" versie-id="10002326372">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306724">
+        <datum waarde="1993-12-31" label="XXX" versie-id="10002326382">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="XXX" versie-id="10002326382">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306734">
+        <datum waarde="1993-12-31" label="[B4]" versie-id="10002326392">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" label="[B4]" versie-id="10002326392">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306744">
+        <datum waarde="1993-12-31" versie-id="10002326402">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" versie-id="10002326402">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+      <regelingelement label-id="10002306754">
+        <datum waarde="1993-12-31" versie-id="10002326412">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+            <inwerkingtreding>
+              <bron xsi:type="bron_groot" type="oorspronkelijk" isvoorlopigetoepassing="false">
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-12-31</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>202</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </inwerkingtreding>
+          </details>
+        </datum>
+        <datum waarde="1992-12-18" versie-id="10002326412">
+          <details isvoorafgaand="false">
+            <betreft>nieuwe-regeling</betreft>
+            <ontstaansbron>
+              <bron type="oorspronkelijk">
+                <ondertekening>1993-12-01</ondertekening>
+                <bekendmaking soort="Trb">
+                  <publicatiedatum>1993-06-07</publicatiedatum>
+                  <publicatiejaar>1993</publicatiejaar>
+                  <publicatienummer>77</publicatienummer>
+                </bekendmaking>
+              </bron>
+            </ontstaansbron>
+          </details>
+        </datum>
+      </regelingelement>
+    </regelingelementen>
+  </wijzigingen>
+  <owms:meta owms-version="4.0">
+    <owms:kern>
+      <dcterms:identifier>BWBV0001109</dcterms:identifier>
+      <dcterms:title xml:lang="nl">Overeenkomst tussen het Koninkrijk der Nederlanden en de Verenigde Staten van Amerika tot het vermijden van dubbele belasting en het voorkomen van het ontgaan van belasting met betrekking tot belastingen naar het inkomen</dcterms:title>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:type>verdrag</dcterms:type>
+      <dcterms:modified>2015-02-19</dcterms:modified>
+      <overheid:authority>Buitenlandse Zaken</overheid:authority>
+    </owms:kern>
+  </owms:meta>
+</wetstechnische-informatie>

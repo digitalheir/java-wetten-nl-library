@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<work xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../_manifest.xsd" label="BWBV0001109"
+      gegenereerd="2015-02-19T09:28:42.1043433+01:00" _latestItem="2004-12-28_0/xml/BWBV0001109_2004-12-28_0.xml">
+    <metadata>
+        <datum_totstandkoming>1992-12-18</datum_totstandkoming>
+        <datum_inwerkingtreding>1993-12-31</datum_inwerkingtreding>
+        <tijdstip_wti_toegevoegd>2015-02-19T09:28:42+01:00</tijdstip_wti_toegevoegd>
+        <tijdstip_laatste_wijziging_wti>2015-02-19T09:28:42+01:00</tijdstip_laatste_wijziging_wti>
+        <wti_locatie>BWBV0001109.WTI</wti_locatie>
+    </metadata>
+    <expression label="2004-12-28_0">
+        <metadata>
+            <datum_inwerkingtreding>2004-12-28</datum_inwerkingtreding>
+            <einddatum>9999-12-31</einddatum>
+            <zichtdatum_start>2004-12-28</zichtdatum_start>
+            <zichtdatum_eind>9999-12-31</zichtdatum_eind>
+            <tijdstip_toegevoegd>2015-02-18T07:17:09+01:00</tijdstip_toegevoegd>
+            <tijdstip_laatste_wijziging>2015-02-18T07:17:09+01:00</tijdstip_laatste_wijziging>
+        </metadata>
+        <manifestation label="xml">
+            <metadata>
+                <hashcode>
+                    a4ab8fcd4c8491704e31c880511def0ec231a061256f63be4b708e97b3aae1389c825990a061bd4357e246ce934bb25fa82867c957a2fc1c8d7c6c3194bfc957
+                </hashcode>
+                <size>464796</size>
+            </metadata>
+            <item label="BWBV0001109_2004-12-28_0.xml" _deleted="false"/>
+        </manifestation>
+    </expression>
+</work>
