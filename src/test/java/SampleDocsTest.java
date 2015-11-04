@@ -1,14 +1,32 @@
 import nl.wetten._schema.Work;
+import nl.wetten.bwbng.wti.WetstechnischeInformatie;
 import org.junit.Assert;
 import org.junit.Test;
+import org.xml.sax.SAXException;
 
 import javax.xml.bind.JAXBException;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
 import java.io.InputStream;
+import java.text.ParseException;
 
 /**
  * Created by Maarten on 28/10/2015.
  */
 public class SampleDocsTest {
+    Class clazz = this.getClass();
+
+    @Test
+    public void parseSampleDocs() throws JAXBException, SAXException, ParserConfigurationException, ParseException, IOException {
+        for (String bwbId : Constants.SAMPLE_IDS) {
+
+            Work work = Work.parse(clazz.getResourceAsStream("/" + bwbId + "/manifest.xml"));
+            junit.framework.Assert.assertEquals(work.getLabel(), bwbId);
+            WetstechnischeInformatie wti = WetstechnischeInformatie.parse(clazz.getResourceAsStream("/" + bwbId + "/" + bwbId + ".WTI"));
+
+            // No errors
+        }
+    }
 
     @Test
     public void testBWBR0002458() {
