@@ -1,6 +1,5 @@
 package org.leibnizcenter.wetten;
 
-
 import com.squareup.okhttp.HttpUrl;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
@@ -13,14 +12,10 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by Maarten on 21/10/2015.
+ * Created by maarten on 4-11-15.
  */
-public class BwbInterface {
-
-    public static final String HTTPS_REPOSITORY_OFFICIELE_OVERHEIDSPUBLICATIES_NL_BWB = "https://repository.officiele-overheidspublicaties.nl/bwb/";
-
+public class Works {
     /**
-     *
      * @param bwbId BWB id for document
      * @return {@link Work} object representing this law
      * @throws IOException
@@ -28,10 +23,15 @@ public class BwbInterface {
      */
     public static Work getWork(String bwbId) throws IOException, JAXBException {
         HttpUrl url = HttpUrl.parse(
-                HTTPS_REPOSITORY_OFFICIELE_OVERHEIDSPUBLICATIES_NL_BWB + bwbId + "/manifest.xml"
+                getWorkUrl(bwbId)
         );
         return getWork(url);
     }
+
+    public static String getWorkUrl(String bwbId) {
+        return Const.HTTPS_REPOSITORY_OFFICIELE_OVERHEIDSPUBLICATIES_NL_BWB + bwbId + "/manifest.xml";
+    }
+
 
     private static Work getWork(HttpUrl url) throws IOException, JAXBException {
         return getWork(
@@ -55,7 +55,7 @@ public class BwbInterface {
 
     public static WetstechnischeInformatie getWti(String bwbId) throws IOException, JAXBException {
         HttpUrl url = HttpUrl.parse(
-                HTTPS_REPOSITORY_OFFICIELE_OVERHEIDSPUBLICATIES_NL_BWB + bwbId + "/" + bwbId + ".WTI"
+                Const.HTTPS_REPOSITORY_OFFICIELE_OVERHEIDSPUBLICATIES_NL_BWB + bwbId + "/" + bwbId + ".WTI"
         );
         return getWti(url);
     }
@@ -76,5 +76,4 @@ public class BwbInterface {
             throw new Error("HTTP request not OK: " + response.code() + "\nURL: " + request.url());
         }
     }
-
 }

@@ -1,13 +1,9 @@
 import nl.wetten._schema.Work;
 import org.junit.Assert;
 import org.junit.Test;
-import org.leibnizcenter.wetten.BwbInterface;
 
 import javax.xml.bind.JAXBException;
-import java.io.IOException;
 import java.io.InputStream;
-import java.io.StringReader;
-import java.io.StringWriter;
 
 /**
  * Created by Maarten on 28/10/2015.
