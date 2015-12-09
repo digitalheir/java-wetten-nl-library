@@ -5,7 +5,7 @@
 A Java interface to [wetten.nl](http://www.wetten.nl/).
 
 ## JavaDoc
-JavaDoc is available at http://phil.uu.nl/~trompper/wetten-nl-0.7.1-javadoc/
+JavaDoc is available at http://phil.uu.nl/~trompper/wetten-nl-0.8.0-javadoc/
 
 ## Usage
 Download [the latest JAR](https://github.com/digitalheir/java-wetten-nl-library/releases/latest) or grab from Maven:
@@ -15,14 +15,14 @@ Download [the latest JAR](https://github.com/digitalheir/java-wetten-nl-library/
         <dependency>
             <groupId>org.leibnizcenter</groupId>
             <artifactId>wetten-nl</artifactId>
-            <version>0.7.1</version>
+            <version>0.8.0</version>
         </dependency>
 </dependencies>
 ```
 
 or Gradle:
 ```groovy
-compile 'org.leibnizcenter:wetten-nl:0.7.1'
+compile 'org.leibnizcenter:wetten-nl:0.8.0'
 ```
 
 ## More
