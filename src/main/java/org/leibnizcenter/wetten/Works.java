@@ -6,6 +6,7 @@ import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 import nl.wetten._schema.Work;
 import nl.wetten.bwbng.wti.WetstechnischeInformatie;
+import org.leibnizcenter.ResourceNotFoundException;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
@@ -49,7 +50,7 @@ public class Works {
             InputStream stream = response.body().byteStream();
             return Work.parse(stream);
         } else {
-            throw new Error("HTTP request not OK: " + response.code() + "\nURL: " + request.url());
+            throw new ResourceNotFoundException(request,response);
         }
     }
 
@@ -73,7 +74,7 @@ public class Works {
             InputStream stream = response.body().byteStream();
             return WetstechnischeInformatie.parse(stream);
         } else {
-            throw new Error("HTTP request not OK: " + response.code() + "\nURL: " + request.url());
+            throw new ResourceNotFoundException(request,response);
         }
     }
 }

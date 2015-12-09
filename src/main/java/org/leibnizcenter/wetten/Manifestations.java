@@ -8,6 +8,7 @@ import nl.wetten._schema.Expression;
 import nl.wetten._schema.Item;
 import nl.wetten._schema.Manifestation;
 import nl.wetten._schema.Work;
+import org.leibnizcenter.ResourceNotFoundException;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -85,7 +86,7 @@ public class Manifestations {
         if (response.isSuccessful()) {
             return response.body().byteStream();
         } else {
-            throw new Error("HTTP request not OK: " + response.code() + "\nURL: " + request.url());
+            throw new ResourceNotFoundException(request,response);
         }
     }
 
@@ -94,7 +95,8 @@ public class Manifestations {
         if (response.isSuccessful()) {
             return response.body().string();
         } else {
-            throw new Error("HTTP request not OK: " + response.code() + "\nURL: " + request.url());
+            throw new ResourceNotFoundException(request, response);
         }
     }
+
 }
