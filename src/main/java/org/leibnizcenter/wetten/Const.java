@@ -15,9 +15,15 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by Maarten on 21/10/2015.
+ * <p>
+ * Utility class containing constants
+ * </p>
  */
 public class Const {
+    private Const() {
+        throw new IllegalStateException();
+    }
+
     public static final String HTTPS_REPOSITORY_OFFICIELE_OVERHEIDSPUBLICATIES_NL_BWB =
             "https://repository.officiele-overheidspublicaties.nl/bwb/";
 }

@@ -15,8 +15,9 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * Utility methods for manifestations, usually dealing with the XML form of particular laws
  * <p>
+ * Utility methods for manifestations, usually dealing with the XML version of laws on a particular date
+ * </p>
  * Created by maarten on 4-11-15.
  */
 public class Manifestations {
@@ -24,11 +25,11 @@ public class Manifestations {
         return streamXml(work, expression, getManifestation(expression));
     }
 
-    private static InputStream streamXml(Work work, Expression expression, Manifestation manifestation) throws IOException {
+    public static InputStream streamXml(Work work, Expression expression, Manifestation manifestation) throws IOException {
         return streamXml(work, expression, getItem(manifestation));
     }
 
-    private static InputStream streamXml(Work work, Expression expression, Item item) throws IOException {
+    public static InputStream streamXml(Work work, Expression expression, Item item) throws IOException {
         return streamXml(
                 new Request.Builder().url(getXmlUrl(work.getLabel(), expression.getLabel(), item.getLabel())).build(),
                 new OkHttpClient()
@@ -40,7 +41,7 @@ public class Manifestations {
         return getXml(work, expression, manifestation);
     }
 
-    private static Item getItem(Manifestation manifestation) {
+    public static Item getItem(Manifestation manifestation) {
         List<Item> manif = manifestation.getItem();
         if (manif.size() != 1) {
             throw new IllegalStateException("Found " + manif.size() + " items; can't decide which to choose");
@@ -48,7 +49,7 @@ public class Manifestations {
         return manif.get(0);
     }
 
-    private static Manifestation getManifestation(Expression expression) {
+    public static Manifestation getManifestation(Expression expression) {
         List<Manifestation> manif = expression.getManifestation();
         if (manif.size() != 1) {
             throw new IllegalStateException("Found " + manif.size() + " manifestations; can't decide which to choose");
@@ -74,23 +75,23 @@ public class Manifestations {
         );
     }
 
-    private static String getXml(HttpUrl url) throws IOException {
+    public static String getXml(HttpUrl url) throws IOException {
         return getXml(
                 new Request.Builder().url(url).build(),
                 new OkHttpClient()
         );
     }
 
-    private static InputStream streamXml(Request request, OkHttpClient httpClient) throws IOException {
+    public static InputStream streamXml(Request request, OkHttpClient httpClient) throws IOException {
         Response response = httpClient.newCall(request).execute();
         if (response.isSuccessful()) {
             return response.body().byteStream();
         } else {
-            throw new ResourceNotFoundException(request,response);
+            throw new ResourceNotFoundException(request, response);
         }
     }
 
-    private static String getXml(Request request, OkHttpClient httpClient) throws IOException {
+    public static String getXml(Request request, OkHttpClient httpClient) throws IOException {
         Response response = httpClient.newCall(request).execute();
         if (response.isSuccessful()) {
             return response.body().string();
@@ -98,5 +99,4 @@ public class Manifestations {
             throw new ResourceNotFoundException(request, response);
         }
     }
-
 }

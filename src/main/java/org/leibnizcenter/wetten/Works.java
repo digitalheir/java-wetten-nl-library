@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
+ * <p>Utility methods for works (laws on no particular date)</p>
  * Created by maarten on 4-11-15.
  */
 public class Works {
@@ -34,23 +35,23 @@ public class Works {
     }
 
 
-    private static Work getWork(HttpUrl url) throws IOException, JAXBException {
+    public static Work getWork(HttpUrl url) throws IOException, JAXBException {
         return getWork(
                 new Request.Builder().url(url).build()
         );
     }
 
-    private static Work getWork(Request build) throws IOException, JAXBException {
+    public static Work getWork(Request build) throws IOException, JAXBException {
         return getWork(build, new OkHttpClient());
     }
 
-    private static Work getWork(Request request, OkHttpClient httpClient) throws IOException, JAXBException {
+    public static Work getWork(Request request, OkHttpClient httpClient) throws IOException, JAXBException {
         Response response = httpClient.newCall(request).execute();
         if (response.isSuccessful()) {
             InputStream stream = response.body().byteStream();
             return Work.parse(stream);
         } else {
-            throw new ResourceNotFoundException(request,response);
+            throw new ResourceNotFoundException(request, response);
         }
     }
 
@@ -74,7 +75,7 @@ public class Works {
             InputStream stream = response.body().byteStream();
             return WetstechnischeInformatie.parse(stream);
         } else {
-            throw new ResourceNotFoundException(request,response);
+            throw new ResourceNotFoundException(request, response);
         }
     }
 }

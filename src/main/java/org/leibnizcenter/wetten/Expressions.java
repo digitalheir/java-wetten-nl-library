@@ -1,7 +1,7 @@
 package org.leibnizcenter.wetten;
 
 /**
- * Created by maarten on 4-11-15.
+ * Utility methods for expressions
  */
 public class Expressions {
 }

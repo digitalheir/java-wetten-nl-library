@@ -6,8 +6,9 @@ import com.squareup.okhttp.Response;
 import java.io.IOException;
 
 /**
- * Thrown when we can't find a resource
  * <p>
+ * Thrown when we can't find a resource
+ * </p>
  * Created by maarten on 9-12-15.
  */
 public class ResourceNotFoundException extends IOException {
