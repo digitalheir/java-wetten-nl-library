@@ -19,7 +19,7 @@ import java.util.NoSuchElementException;
  * </p>
  * Created by maarten on 15-12-15.
  */
-public class SearchRequest {
+public class Search {
     private final OkHttpClient httpClient;
     private Builder url;
     private SearchRetrieveResponseType lastResult;
@@ -29,7 +29,7 @@ public class SearchRequest {
      *
      * @param builder {@link Builder} that contains all query parameters
      */
-    public SearchRequest(Builder builder) throws IOException, JAXBException {
+    public Search(Builder builder) {
         this.url = builder;
         httpClient = new OkHttpClient();
         //lastResult = executeAndParse(httpClient);
@@ -63,6 +63,7 @@ public class SearchRequest {
         return l.getValue();
     }
 
+
     public boolean hasNext() {
         return lastResult == null || lastResult.getNextRecordPosition() != null;
     }
@@ -82,6 +83,9 @@ public class SearchRequest {
         return lastResult;
     }
 
+    public static Search withQuery(String variable, String value) {
+        return new Builder().setQuery(variable, value).build();
+    }
 
     public static class Builder {
         private static final String VERSION = "version";
@@ -149,12 +153,12 @@ public class SearchRequest {
             return builder.build();
         }
 
-        public SearchRequest build() throws IOException, JAXBException {
-            return new SearchRequest(this);
+        public Search build() {
+            return new Search(this);
         }
 
 
-        public Builder setQuery(String var, Type val) {
+        public Builder setQuery(String var, String val) {
             setQuery(var + "=" + val);
             return this;
         }
