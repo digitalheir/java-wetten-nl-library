@@ -308,11 +308,6 @@ if (loadingNode) {
     ReactDOM.render(React.createElement(LoadingView, null), loadingNode);
 }
 
-const https = require('https');
-https.get('https://lawlybot.herokuapp.com/api/bwb/BWBR0032203/2014-01-25_0/xml/BWBR0032203_2014-01-25_0.xml', function(){
-
-});
-
 //
 // HOME PAGE
 //
@@ -451,7 +446,7 @@ https.get('https://lawlybot.herokuapp.com/api/bwb/BWBR0032203/2014-01-25_0/xml/B
 //    } else for (a = $("li,.labelling", $navigationMenu), c = 0; c < a.length; c++)0 < a[c].className.length && (rmClass(a[c], "filterMatch"), rmClass(a[c], "hidden"))
 //}
 
-},{"../html/memes/main-content.jsx":2,"../jsx/search/search.jsx":31,"./reader/backend/expressions":9,"./reader/backend/works":12,"./reader/loading.jsx":17,"./reader/reader-main.jsx":21,"https":46,"react":316,"react-dom":181}],7:[function(require,module,exports){
+},{"../html/memes/main-content.jsx":2,"../jsx/search/search.jsx":31,"./reader/backend/expressions":9,"./reader/backend/works":12,"./reader/loading.jsx":17,"./reader/reader-main.jsx":21,"react":316,"react-dom":181}],7:[function(require,module,exports){
 const https = require('https');
 const dl = require('./download-string');
 
@@ -1732,8 +1727,8 @@ function _createTocEntries(items) {
             id: item.id,
             label: item.label,
             sublabel: item.sublabel,
-            rangeStart: item.range && item.range.length > 0 ? item.range[0] : null,
-            rangeEnd: item.range && item.range.length > 1 ? item.range[1] : null
+            rangeStart: item.range && item.range.length > 0 ? item.range[0].label : null,
+            rangeEnd: item.range && item.range.length > 1 ? item.range[1].label : null
         }, children);
     });
 }
@@ -2029,16 +2024,16 @@ const Entry = React.createClass({displayName: "Entry",
 
         var hasChildren = this.props.hasChildren;
         var label = this.props.label ? React.createElement("div", {className: "label"}, this.props.label) : '';
-        var sublabel =  '';//this.props.sublabel ? <div className="sublabel">{this.props.sublabel}</div> : '';
+        var sublabel = this.props.sublabel ? React.createElement("div", {className: "sublabel"}, this.props.sublabel) : '';
 
         var range = '';
-        //if (this.props.rangeStart) {
-        //    if (this.props.rangeEnd) {
-        //        range = <div className="range">{this.props.rangeStart+" — "+this.props.rangeEnd}</div>;
-        //    } else {
-        //        range = <div className="range">{this.props.rangeStart}</div>;
-        //    }
-        //}
+        if (this.props.rangeStart) {
+            if (this.props.rangeEnd) {
+                range = React.createElement("div", {className: "range"}, this.props.rangeStart+" — "+this.props.rangeEnd);
+            } else {
+                range = React.createElement("div", {className: "range"}, this.props.rangeStart);
+            }
+        }
 
         var className = "title-container labelling ";
 
