@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:redefine schemaLocation="toestand_base_2015-1.xsd">
+		<xs:attributeGroup name="att.extref">
+			<xs:attributeGroup ref="att.extref"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+			<xs:attribute name="label-id" type="xs:string"/>
+			<xs:attribute name="verwijzing-id" type="xs:string"/>
+			<xs:attribute name="bwb-id" type="xs:string"/>
+			<xs:attribute name="eurlex" type="xs:string"/>
+			<xs:attribute name="groep" type="xs:string"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="att.intref">
+			<xs:attributeGroup ref="att.intref"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+			<xs:attribute name="label-id" type="xs:string"/>
+			<xs:attribute name="verwijzing-id" type="xs:string"/>
+			<xs:attribute name="bwb-id" type="xs:string"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.considerans">
+			<xs:attributeGroup ref="attlist.considerans"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.li">
+			<xs:attributeGroup ref="attlist.li"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.lijst">
+			<xs:attributeGroup ref="attlist.lijst"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.wijzig-divisie">
+			<xs:attributeGroup ref="attlist.wijzig-divisie"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.lid">
+			<xs:attributeGroup ref="attlist.lid"/>
+			<xs:attribute name="label-id"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.vrije-tekst">
+			<xs:attributeGroup ref="attlist.vrije-tekst"/>
+			<xs:attributeGroup ref="r1"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.verdrag">
+			<xs:attributeGroup ref="attlist.verdrag"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attribute name="inwerking" type="xs:date"/>
+			<xs:attribute name="voorlopige-toepassing" type="xs:date"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.regeling-tekst">
+			<xs:attributeGroup ref="attlist.regeling-tekst"/>
+			<xs:attributeGroup ref="r1"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.regeling">
+			<xs:attributeGroup ref="attlist.regeling"/>
+			<xs:attributeGroup ref="r1"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.circulaire">
+			<xs:attributeGroup ref="attlist.circulaire"/>
+			<xs:attributeGroup ref="r1"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.bijlage-sluiting">
+			<xs:attributeGroup ref="attlist.bijlage-sluiting"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.bijlage">
+			<xs:attributeGroup ref="attlist.bijlage"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.aanhef">
+			<xs:attributeGroup ref="attlist.aanhef"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.tekst">
+			<xs:attributeGroup ref="attlist.tekst"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.wijzig-artikel">
+			<xs:attributeGroup ref="attlist.wijzig-artikel"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.regeling-sluiting">
+			<xs:attributeGroup ref="attlist.regeling-sluiting"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.circulaire-tekst">
+			<xs:attributeGroup ref="attlist.circulaire-tekst"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.circulaire-sluiting">
+			<xs:attributeGroup ref="attlist.circulaire-sluiting"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.circulaire.divisie">
+			<xs:attributeGroup ref="attlist.circulaire.divisie"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.circulaire.aanhef">
+			<xs:attributeGroup ref="attlist.circulaire.aanhef"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.structuurtekst">
+			<xs:attributeGroup ref="attlist.structuurtekst"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.sub-paragraaf">
+			<xs:attributeGroup ref="attlist.sub-paragraaf"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.enig-artikel">
+			<xs:attributeGroup ref="attlist.enig-artikel"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.officiele-inhoudsopgave">
+			<xs:attributeGroup ref="attlist.officiele-inhoudsopgave"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.titeldeel">
+			<xs:attributeGroup ref="attlist.titeldeel"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.divisie">
+			<xs:attributeGroup ref="attlist.divisie"/>
+			<xs:attribute name="status"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.verdragtekst">
+			<xs:attributeGroup ref="attlist.verdragtekst"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute default="goed" name="status">
+				<xs:simpleType>
+					<xs:restriction base="xs:token">
+						<xs:enumeration value="vervallen"/>
+						<xs:enumeration value="goed"/>
+						<xs:enumeration value="nogniet"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.wetgeving">
+			<xs:attributeGroup ref="attlist.wetgeving"/>
+			<xs:attribute name="laatste_wijziging_goed" type="xs:date"/>
+			<xs:attribute name="terugwerkend_tot" type="xs:string"/>
+			<xs:attribute name="bronbestand"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attribute name="inwerkingtredingsdatum" type="xs:date"/>
+			<xs:attribute name="vervaldatum" type="xs:date"/>
+			<xs:attribute name="voorlopige-toepassing" type="xs:date"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.wettekst">
+			<xs:attributeGroup ref="attlist.wettekst"/>
+			<xs:attributeGroup ref="r1"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.wet-besluit">
+			<xs:attributeGroup ref="attlist.wet-besluit"/>
+			<xs:attributeGroup ref="r1"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.artikel">
+			<xs:attributeGroup ref="attlist.artikel"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="hashvalue"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.afdeling">
+			<xs:attributeGroup ref="attlist.afdeling"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.boek">
+			<xs:attributeGroup ref="attlist.boek"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.deel">
+			<xs:attributeGroup ref="attlist.deel"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.hoofdstuk">
+			<xs:attributeGroup ref="attlist.hoofdstuk"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.paragraaf">
+			<xs:attributeGroup ref="attlist.paragraaf"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.alias-titels">
+			<xs:attributeGroup ref="attlist.alias-titels"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attribute name="label-id"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.citeertitel">
+			<xs:attributeGroup ref="attlist.citeertitel"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.eerst-verantwoordelijk">
+			<xs:attributeGroup ref="attlist.eerst-verantwoordelijk"/>
+			<xs:attributeGroup ref="r1"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.intitule">
+			<xs:attributeGroup ref="attlist.intitule"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.parlementair">
+			<xs:attributeGroup ref="attlist.parlementair"/>
+			<xs:attributeGroup ref="r1"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.wetsluiting">
+			<xs:attributeGroup ref="attlist.wetsluiting"/>
+			<xs:attributeGroup ref="r1"/>
+			<xs:attributeGroup ref="r2"/>
+			<xs:attribute name="bwb-ng-variabel-deel"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.terugwerkende-kracht">
+			<xs:attributeGroup ref="attlist.terugwerkende-kracht"/>
+			<xs:attribute name="controle"/>
+		</xs:attributeGroup>
+		<xs:attributeGroup name="attlist.grondslagen">
+			<xs:attributeGroup ref="attlist.grondslagen"/>
+		</xs:attributeGroup>
+		<xs:complexType name="class.meta-data">
+			<xs:complexContent>
+				<xs:extension base="class.meta-data">
+					<xs:sequence>
+						<xs:element ref="jcis" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+		<xs:complexType name="class.citaat-artikel">
+			<xs:complexContent>
+				<xs:extension base="class.citaat-artikel">
+					<xs:sequence>
+						<xs:element minOccurs="0" name="meta-data">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element ref="jcis" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+		<xs:complexType name="class.lid">
+			<xs:complexContent>
+				<xs:extension base="class.lid">
+					<xs:sequence>
+						<xs:element minOccurs="0" name="meta-data">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element ref="jcis" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+		<xs:complexType name="class.li">
+			<xs:complexContent>
+				<xs:extension base="class.li">
+					<xs:sequence>
+						<xs:element minOccurs="0" name="meta-data">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element ref="jcis" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+		<xs:complexType name="class.ondertekening" mixed="true">
+			<xs:complexContent>
+				<xs:extension base="class.ondertekening">
+					<xs:choice minOccurs="0" maxOccurs="unbounded">
+						<xs:element minOccurs="0" name="meta-data">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element ref="jcis" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:choice>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:redefine>
+	<xs:attributeGroup name="r1">
+		<xs:attribute name="label"/>
+		<xs:attribute name="tekstlengte" type="xs:integer"/>
+		<xs:attribute name="metadatalengte" type="xs:integer"/>
+		<xs:attribute name="metadatacontrole" type="xs:string"/>
+		<xs:attribute name="controle"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="r2">
+		<xs:attribute name="bron"/>
+		<xs:attribute name="effect"/>
+		<xs:attribute name="inwerking" type="xs:date"/>
+		<xs:attribute name="ondertekening_bron" type="xs:date"/>
+		<xs:attribute name="publicatie_iwt" type="xs:date"/>
+		<xs:attribute name="publicatie_bron" type="xs:date"/>
+		<xs:attribute name="voorlopige-toepassing" type="xs:date"/>
+	</xs:attributeGroup>
+
+	<xs:element name="jci">
+		<xs:complexType>
+			<xs:attributeGroup ref="attlist.jci"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="jcis">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="jci" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:attributeGroup name="attlist.jci">
+		<xs:attribute name="versie" type="xs:string"/>
+		<xs:attribute name="verwijzing" type="xs:string"/>
+		<xs:attribute name="onderdeel" type="xs:string"/>
+		<xs:attribute name="korte-verwijzing" type="xs:string"/>
+		<xs:attribute name="unieke-verwijzing" type="xs:string"/>
+	</xs:attributeGroup>
+
+	<xs:element name="toestand">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="bwb-inputbestand">
+					<xs:annotation>
+						<xs:documentation>De bestandsnaam die als input heeft gediend voor deze
+                            toestand (m.a.w. waarop de wijzigingen zijn
+                            toegepast)</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="bwb-wijzigingen"/>
+				<xs:element ref="redactionele-correcties" minOccurs="0"/>
+				<xs:element ref="wetgeving">
+					<xs:annotation>
+						<xs:documentation>Dit is het rootelement van hetgeen de Sdu levert / uit de
+                            EGW client komt.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="inwerkingtreding" type="xs:date" use="optional">
+				<xs:annotation>
+					<xs:documentation>Dit is de datum inwerkingtreding die heeft geleid tot deze
+                        toestand.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="bwb-id"/>
+			<xs:attribute name="bwb-ng-vast-deel"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="bwb-wijzigingen">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="bwb-wijziging"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="bwb-wijziging">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="label"/>
+				<xs:element minOccurs="0" ref="terugwerkend.datum"/>
+				<xs:element minOccurs="0" ref="publicatie"/>
+			</xs:sequence>
+			<xs:attribute name="idref" type="xs:NCName"/>
+			<xs:attribute default="officieel" name="oorzaak">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="officieel"/>
+						<xs:enumeration value="redactioneel"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="redactionele-correcties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="redactionele-correctie"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="redactionele-correctie">
+		<xs:complexType>
+			<xs:attribute name="label-id" use="required"/>
+			<xs:attribute name="oud-revisie-id" use="required"/>
+			<xs:attribute name="nieuw-revisie-id" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

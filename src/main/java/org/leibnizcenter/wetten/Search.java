@@ -87,6 +87,10 @@ public class Search {
         return new Builder().setQuery(variable, value).build();
     }
 
+    public static Search withQuery(String query) {
+        return new Builder().setQuery(query).build();
+    }
+
     public static class Builder {
         private static final String VERSION = "version";
         private static final String OPERATION = "operation";
@@ -105,7 +109,7 @@ public class Search {
             builder.setQueryParameter(OPERATION, "searchRetrieve");
             builder.setQueryParameter(VERSION, "1.2");
             builder.setQueryParameter(X_CONNECTION, "BWB");
-            builder.setQueryParameter(QUERY, "overheidbwb.titel=aanbestedingswet");
+//            builder.setQueryParameter(QUERY, "overheidbwb.titel=aanbestedingswet");
         }
 
         public Builder() {

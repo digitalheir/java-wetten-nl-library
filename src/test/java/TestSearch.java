@@ -6,9 +6,15 @@ import junit.framework.Assert;
 import org.junit.Test;
 import org.leibnizcenter.wetten.Search;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /**
  */
@@ -52,6 +58,43 @@ public class TestSearch {
             Assert.assertTrue(recordData.getLegalAreas().length > 0);
             Assert.assertTrue(recordData.getIdentifier().startsWith("BWB"));
         }
+    }
+
+
+    @Test
+    public void testRequestModifiedLaterThanJanuary2016() throws IOException, JAXBException {
+        Search req = Search.withQuery(Search.QueryVars.modified+">=2016-01-01");
+        SearchRetrieveResponseType res = req.next();
+        Assert.assertTrue(1 == res.getNumberOfRecords().compareTo(BigInteger.valueOf(50000L)));
+        for (RecordType r : res.getRecords().getRecord()) {
+            Element gzd = r.getRecordData().getElement();
+            String d = getModified(gzd);
+            Assert.assertNotNull(d);
+            Assert.assertTrue("2016-01-00".compareTo(d) == -1);
+        }
+    }
+
+    private String getModified(Element gzd) {
+        NodeList gzdCh = gzd.getChildNodes();
+        for(int i=0;i<gzdCh.getLength();i++){
+            Node ch =gzdCh.item(i);
+            if(ch.getNodeType() == Node.ELEMENT_NODE && ch.getNodeName().equals("originalData")){
+                Element chEl = (Element) ch;
+                NodeList el = chEl.getElementsByTagName("dcterms:modified");
+                return el.item(0).getTextContent();
+            }
+        }
+//        originalData>
+//        <overheidbwb:meta>
+//        <owmskern>
+//        <dcterms:identifier>BWBR0001821</dcterms:identifier>
+//        <dcterms:title>Loi concernant les Mines, les Minières et les Carrières</dcterms:title>
+//        <dcterms:type>wet</dcterms:type>
+//        <dcterms:language>nl</dcterms:language>
+//        <overheid:authority>Economische Zaken</overheid:authority>
+//        <dcterms:creator>Ministerie van Binnenlandse Zaken en Koninkrijksrelaties</dcterms:creator>
+//        <dcterms:modified>2016-01-12</dcterms:modified>
+        return null;
     }
 
     @Test
