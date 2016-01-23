@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: http://wetten.lawreader.nl/sitemap_index
+Sitemap: https://wetten.lawreader.nl/sitemap_index
