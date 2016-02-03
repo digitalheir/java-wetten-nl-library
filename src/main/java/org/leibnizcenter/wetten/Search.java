@@ -91,6 +91,10 @@ public class Search {
         return new Builder().setQuery(query).build();
     }
 
+    public HttpUrl getUrl() {
+        return url.buildUrl();
+    }
+
     public static class Builder {
         private static final String VERSION = "version";
         private static final String OPERATION = "operation";
