@@ -98,10 +98,10 @@ public class Search {
     public static class Builder {
         private static final String VERSION = "version";
         private static final String OPERATION = "operation";
-
         private static final String X_CONNECTION = "x-connection";
-
         private static final String QUERY = "query";
+
+        private static int MAX_RESULT_SIZE = 1000;
 
         final HttpUrl.Builder builder = new HttpUrl.Builder();
 
@@ -140,8 +140,8 @@ public class Search {
          * @param max
          */
         public Builder setMax(int max) {
-            if (max > 1000 || max < 1) {
-                throw new InvalidParameterException("Maximum value must be 0 < max <= 100, not " + max + ".");
+            if (max > MAX_RESULT_SIZE || max < 1) {
+                throw new InvalidParameterException("Maximum value must be 0 < max <= "+MAX_RESULT_SIZE+", not " + max + ".");
             }
             builder.setQueryParameter("maximumRecords", "" + max);
             return this;
