@@ -23165,7 +23165,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = function (props) {
 	    return _react2.default.createElement(
 	        'a',
-	        { className: 'btn-back', href: '../' },
+	        { className: 'btn-ab', href: '../' },
 	        _react2.default.createElement(
 	            'i',
 	            { className: 'fa  fa-chevron-left' },
