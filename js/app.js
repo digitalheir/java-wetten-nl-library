@@ -34184,7 +34184,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return _react2.default.createElement(
 	        "button",
 	        {
-	            className: "mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" },
+	            onClick: function onClick() {
+	                window.scrollTo(0, 0);
+	            },
+	            className: "mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab" },
 	        _react2.default.createElement(
 	            "i",
 	            { className: "material-icons" },
