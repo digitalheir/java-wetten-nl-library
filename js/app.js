@@ -368,7 +368,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            null,
 	            (0, _createTocElements2.default)(rsToc, 0)
 	        )
-	    ), tocNode, undefined);
+	    ), tocNodeRs, undefined);
 	}
 
 	function runServiceWorker(relativePath) {
