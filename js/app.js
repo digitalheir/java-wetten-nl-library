@@ -38472,8 +38472,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var mapDispatchToProps = function mapDispatchToProps(dispatch, ownProps) {
 	    return {
-	        toggleNavigation: _reader.navigationToggle,
-	        closeNavigation: _reader.navigationClose
+	        toggleNavigation: function toggleNavigation() {
+	            dispatch(_reader.navigationToggle);
+	        }, closeNavigation: function closeNavigation() {
+	            dispatch(_reader.navigationClose);
+	        }
 	    };
 	};
 
@@ -38871,8 +38874,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var mapDispatchToProps = function mapDispatchToProps(dispatch, ownProps) {
 	    return {
-	        toggleNavigation: _reader.navigationToggle,
-	        closeNavigation: _reader.navigationClose
+	        toggleNavigation: function toggleNavigation() {
+	            dispatch(_reader.navigationToggle);
+	        }, closeNavigation: function closeNavigation() {
+	            dispatch(_reader.navigationClose);
+	        }
 	    };
 	};
 
