@@ -33106,7 +33106,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 511 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
@@ -33120,19 +33120,18 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = function (props) {
 	    return _react2.default.createElement(
-	        'button',
+	        "button",
 	        {
-	            style: {
-	                position: 'fixed',
-	                bottom: 0,
-	                right: 0,
-	                margin: '16px'
-	            },
-	            className: 'mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect' },
+	            className: "mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" },
 	        _react2.default.createElement(
-	            'i',
-	            { className: 'material-icons' },
-	            'expand_less'
+	            "i",
+	            { "class": "material-icons" },
+	            "add"
+	        ),
+	        _react2.default.createElement(
+	            "i",
+	            { className: "material-icons" },
+	            "expand_less"
 	        )
 	    );
 	};

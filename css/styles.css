@@ -11721,7 +11721,10 @@ textarea {
 
 /* List styling */
 #mount-point-scroll-to-top {
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 16px;
   z-index: 100; }
 
 #mount-node-doc-contents {
