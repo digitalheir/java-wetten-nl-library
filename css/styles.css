@@ -11409,7 +11409,8 @@ textarea {
     page-break-after: avoid; } }
 
 body {
-  font: 0.66667em "Roboto", "RobotoDraft", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em "Roboto", "RobotoDraft", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
   color: #333333;
   font-weight: 300;
   background-color: #FFFFFF; }
