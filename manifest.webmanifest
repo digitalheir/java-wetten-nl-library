@@ -1,7 +1,7 @@
 {
   "lang": "nl",
-  "name": "LawReader.nl",
-  "short_name": "lawreader",
+  "name": "Nederlandse Wet",
+  "short_name": "Wetten",
   "icons": [
     {
       "src": "favicon.png",
