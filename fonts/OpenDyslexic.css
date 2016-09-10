@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('OpenDyslexic3-Regular.ttf');
+}
+@font-face {
+    font-family: 'OpenDyslexic';
+    font-weight: bold;
+    src: url('OpenDyslexic3-Bold.ttf');
+}
