@@ -38868,7 +38868,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var mapStateToProps = function mapStateToProps(state, ownProps) {
 	    return {
-	        navigationIsOpen: state.navigationIsOpen
+	        navigationIsOpen: state.navigationIsOpen,
+	        children: ownProps.children
 	    };
 	};
 
