@@ -86,37 +86,40 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _search2 = _interopRequireDefault(_search);
 
-	var _Search = __webpack_require__(497);
+	var _reader = __webpack_require__(497);
+
+	var _reader2 = _interopRequireDefault(_reader);
+
+	var _Search = __webpack_require__(499);
 
 	var _Search2 = _interopRequireDefault(_Search);
 
-	var _Home = __webpack_require__(504);
+	var _Home = __webpack_require__(506);
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _ScrollToTop = __webpack_require__(509);
+	var _ScrollToTop = __webpack_require__(511);
 
 	var _ScrollToTop2 = _interopRequireDefault(_ScrollToTop);
 
-	var _createTocElements = __webpack_require__(510);
+	var _createTocElements = __webpack_require__(512);
 
 	var _createTocElements2 = _interopRequireDefault(_createTocElements);
 
-	var _TocContainer = __webpack_require__(517);
+	var _TocContainer = __webpack_require__(519);
 
 	var _TocContainer2 = _interopRequireDefault(_TocContainer);
 
-	var _createTocElements3 = __webpack_require__(523);
+	var _createTocElements3 = __webpack_require__(524);
 
 	var _createTocElements4 = _interopRequireDefault(_createTocElements3);
 
-	var _TocContainer3 = __webpack_require__(524);
+	var _TocContainer3 = __webpack_require__(525);
 
 	var _TocContainer4 = _interopRequireDefault(_TocContainer3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	// import oboe from 'oboe';
 	function getUrlParams() {
 	    var match,
 	        search = /([^&=]+)=?([^&]*)/g,
@@ -137,6 +140,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	//import LoadingView from './reader/loading.jsx';
 	//import injectTapEventPlugin from "react-tap-event-plugin";
 	//injectTapEventPlugin();
+
+	// import oboe from 'oboe';
 
 	var urlParams = getUrlParams();
 
@@ -289,10 +294,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	var tocNode = document.getElementById('mount-node-toc');
 	if (tocNode && typeof toc != 'undefined') {
 	    // TODO load toc with async http request? note that this incurs an extra waiting time to use the toc
+	    var _loggerMiddleware = (0, _reduxLogger2.default)();
+	    var readerStore = (0, _redux.createStore)(_reader2.default, (0, _redux.applyMiddleware)(_reduxThunk2.default, // lets us dispatch() functions
+	    _loggerMiddleware // neat middleware that logs actions
+	    ));
+
+	    readerStore.dispatch((0, _index.setCorpus)(defaultCorpus));
+	    console.log("Default corpus: " + defaultCorpus);
+	    console.log("corpus: " + readerStore.getState().corpus);
+
 	    _reactDom2.default.render(_react2.default.createElement(
-	        _TocContainer4.default,
-	        null,
-	        (0, _createTocElements4.default)(toc, 0)
+	        _reactRedux.Provider,
+	        { store: readerStore },
+	        _react2.default.createElement(
+	            _TocContainer4.default,
+	            null,
+	            (0, _createTocElements4.default)(toc, 0)
+	        )
 	    ), tocNode, undefined);
 	}
 
@@ -331,11 +349,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var docNav = tocNodeRs ? document.getElementById("document-navigation") : undefined;
 	    var rsToc = parseRsHtmlToc(docNav);
 
+	    var _loggerMiddleware2 = (0, _reduxLogger2.default)();
+	    var _readerStore = (0, _redux.createStore)(_reader2.default, (0, _redux.applyMiddleware)(_reduxThunk2.default, // lets us dispatch() functions
+	    _loggerMiddleware2 // neat middleware that logs actions
+	    ));
+
+	    _readerStore.dispatch((0, _index.setCorpus)(defaultCorpus));
+	    console.log("Default corpus: " + defaultCorpus);
+	    console.log("corpus: " + _readerStore.getState().corpus);
+
 	    _reactDom2.default.render(_react2.default.createElement(
-	        _TocContainer2.default,
-	        null,
-	        (0, _createTocElements2.default)(rsToc, 0)
-	    ), tocNodeRs, undefined);
+	        _reactRedux.Provider,
+	        { store: _readerStore },
+	        _react2.default.createElement(
+	            _TocContainer2.default,
+	            null,
+	            (0, _createTocElements2.default)(rsToc, 0)
+	        )
+	    ), tocNode, undefined);
 	}
 
 	function runServiceWorker(relativePath) {
@@ -32258,6 +32289,48 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 
+	exports.default = function () {
+	    var state = arguments.length <= 0 || arguments[0] === undefined ? initialState : arguments[0];
+	    var action = arguments[1];
+
+	    if (action.type === _reader.NAVIGATION_CLOSE) return Object.assign({}, state, {
+	        navigationIsOpen: !state.navigationIsOpen
+	    });else if (action.type === _reader.NAVIGATION_TOGGLE) return Object.assign({}, state, {
+	        navigationIsOpen: !state.navigationIsOpen
+	    });else return Object.assign({}, state, {});
+	};
+
+	var _reader = __webpack_require__(498);
+
+	var initialState = {
+	    navigationIsOpen: true
+	};
+
+/***/ },
+/* 498 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var NAVIGATION_TOGGLE = exports.NAVIGATION_TOGGLE = 'NAVIGATION_TOGGLE';
+	var NAVIGATION_CLOSE = exports.NAVIGATION_CLOSE = 'NAVIGATION_CLOSE';
+
+	var navigationToggle = exports.navigationToggle = { type: NAVIGATION_TOGGLE };
+	var navigationClose = exports.navigationClose = { type: NAVIGATION_CLOSE };
+
+/***/ },
+/* 499 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
 	var _react = __webpack_require__(299);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -32266,7 +32339,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _actions = __webpack_require__(495);
 
-	var _SearchPresenter = __webpack_require__(498);
+	var _SearchPresenter = __webpack_require__(500);
 
 	var _SearchPresenter2 = _interopRequireDefault(_SearchPresenter);
 
@@ -32296,7 +32369,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Container;
 
 /***/ },
-/* 498 */
+/* 500 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32305,15 +32378,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _BwbSearchResult = __webpack_require__(499);
+	var _BwbSearchResult = __webpack_require__(501);
 
 	var _BwbSearchResult2 = _interopRequireDefault(_BwbSearchResult);
 
-	var _RechtspraakSearchResult = __webpack_require__(500);
+	var _RechtspraakSearchResult = __webpack_require__(502);
 
 	var _RechtspraakSearchResult2 = _interopRequireDefault(_RechtspraakSearchResult);
 
-	var _TopBarContainer = __webpack_require__(501);
+	var _TopBarContainer = __webpack_require__(503);
 
 	var _TopBarContainer2 = _interopRequireDefault(_TopBarContainer);
 
@@ -32487,7 +32560,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//    },
 
 /***/ },
-/* 499 */
+/* 501 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32555,7 +32628,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = BwbSearchResult;
 
 /***/ },
-/* 500 */
+/* 502 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32633,7 +32706,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = RechtspraakSearchResult;
 
 /***/ },
-/* 501 */
+/* 503 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32650,7 +32723,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _actions = __webpack_require__(495);
 
-	var _TopBarPresenter = __webpack_require__(502);
+	var _TopBarPresenter = __webpack_require__(504);
 
 	var _TopBarPresenter2 = _interopRequireDefault(_TopBarPresenter);
 
@@ -32676,7 +32749,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Container;
 
 /***/ },
-/* 502 */
+/* 504 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32689,7 +32762,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _BackButton = __webpack_require__(503);
+	var _BackButton = __webpack_require__(505);
 
 	var _BackButton2 = _interopRequireDefault(_BackButton);
 
@@ -32737,7 +32810,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 503 */
+/* 505 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32765,7 +32838,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 504 */
+/* 506 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32778,15 +32851,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _MenuButton = __webpack_require__(505);
+	var _MenuButton = __webpack_require__(507);
 
 	var _MenuButton2 = _interopRequireDefault(_MenuButton);
 
-	var _Drawer = __webpack_require__(506);
+	var _Drawer = __webpack_require__(508);
 
 	var _Drawer2 = _interopRequireDefault(_Drawer);
 
-	var _Flag = __webpack_require__(508);
+	var _Flag = __webpack_require__(510);
 
 	var _Flag2 = _interopRequireDefault(_Flag);
 
@@ -32849,7 +32922,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 505 */
+/* 507 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32877,7 +32950,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 506 */
+/* 508 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32890,7 +32963,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _QuickMenuItem = __webpack_require__(507);
+	var _QuickMenuItem = __webpack_require__(509);
 
 	var _QuickMenuItem2 = _interopRequireDefault(_QuickMenuItem);
 
@@ -32957,7 +33030,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 507 */
+/* 509 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -32984,7 +33057,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 508 */
+/* 510 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33030,7 +33103,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	;
 
 /***/ },
-/* 509 */
+/* 511 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33065,7 +33138,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 510 */
+/* 512 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33078,11 +33151,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Entry = __webpack_require__(511);
+	var _Entry = __webpack_require__(513);
 
 	var _Entry2 = _interopRequireDefault(_Entry);
 
-	var _immutable = __webpack_require__(516);
+	var _immutable = __webpack_require__(518);
 
 	var _immutable2 = _interopRequireDefault(_immutable);
 
@@ -33127,7 +33200,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = _createToCElementsFromList;
 
 /***/ },
-/* 511 */
+/* 513 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33140,11 +33213,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactAddonsPureRenderMixin = __webpack_require__(512);
+	var _reactAddonsPureRenderMixin = __webpack_require__(514);
 
 	var _reactAddonsPureRenderMixin2 = _interopRequireDefault(_reactAddonsPureRenderMixin);
 
-	var _screenHelper = __webpack_require__(515);
+	var _screenHelper = __webpack_require__(517);
 
 	var _screenHelper2 = _interopRequireDefault(_screenHelper);
 
@@ -33279,13 +33352,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 512 */
+/* 514 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(513);
+	module.exports = __webpack_require__(515);
 
 /***/ },
-/* 513 */
+/* 515 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -33301,7 +33374,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var shallowCompare = __webpack_require__(514);
+	var shallowCompare = __webpack_require__(516);
 
 	/**
 	 * If your React component's render function is "pure", e.g. it will render the
@@ -33338,7 +33411,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = ReactComponentWithPureRenderMixin;
 
 /***/ },
-/* 514 */
+/* 516 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -33368,7 +33441,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = shallowCompare;
 
 /***/ },
-/* 515 */
+/* 517 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -33384,7 +33457,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 516 */
+/* 518 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -38368,7 +38441,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 517 */
+/* 519 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38383,9 +38456,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reactRedux = __webpack_require__(469);
 
-	var _reader = __webpack_require__(518);
+	var _reader = __webpack_require__(498);
 
-	var _TocPresenter = __webpack_require__(519);
+	var _TocPresenter = __webpack_require__(520);
 
 	var _TocPresenter2 = _interopRequireDefault(_TocPresenter);
 
@@ -38409,22 +38482,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Container;
 
 /***/ },
-/* 518 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	var NAVIGATION_TOGGLE = exports.NAVIGATION_TOGGLE = 'NAVIGATION_TOGGLE';
-	var NAVIGATION_CLOSE = exports.NAVIGATION_CLOSE = 'NAVIGATION_CLOSE';
-
-	var navigationToggle = exports.navigationToggle = { type: NAVIGATION_TOGGLE };
-	var navigationClose = exports.navigationClose = { type: NAVIGATION_CLOSE };
-
-/***/ },
-/* 519 */
+/* 520 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38437,19 +38495,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactAddonsPureRenderMixin = __webpack_require__(512);
+	var _reactAddonsPureRenderMixin = __webpack_require__(514);
 
 	var _reactAddonsPureRenderMixin2 = _interopRequireDefault(_reactAddonsPureRenderMixin);
 
-	var _readerConstants = __webpack_require__(520);
+	var _readerConstants = __webpack_require__(521);
 
 	var _readerConstants2 = _interopRequireDefault(_readerConstants);
 
-	var _screenHelper = __webpack_require__(515);
+	var _screenHelper = __webpack_require__(517);
 
 	var _screenHelper2 = _interopRequireDefault(_screenHelper);
 
-	var _NavigationToggle = __webpack_require__(522);
+	var _NavigationToggle = __webpack_require__(523);
 
 	var _NavigationToggle2 = _interopRequireDefault(_NavigationToggle);
 
@@ -38543,7 +38601,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ToC;
 
 /***/ },
-/* 520 */
+/* 521 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38552,7 +38610,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 
-	var _keymirror = __webpack_require__(521);
+	var _keymirror = __webpack_require__(522);
 
 	var _keymirror2 = _interopRequireDefault(_keymirror);
 
@@ -38574,7 +38632,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = consts;
 
 /***/ },
-/* 521 */
+/* 522 */
 /***/ function(module, exports) {
 
 	/**
@@ -38633,7 +38691,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 522 */
+/* 523 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38646,11 +38704,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactAddonsPureRenderMixin = __webpack_require__(512);
+	var _reactAddonsPureRenderMixin = __webpack_require__(514);
 
 	var _reactAddonsPureRenderMixin2 = _interopRequireDefault(_reactAddonsPureRenderMixin);
 
-	var _readerConstants = __webpack_require__(520);
+	var _readerConstants = __webpack_require__(521);
 
 	var _readerConstants2 = _interopRequireDefault(_readerConstants);
 
@@ -38723,7 +38781,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = NavBar;
 
 /***/ },
-/* 523 */
+/* 524 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38732,11 +38790,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Entry = __webpack_require__(511);
+	var _Entry = __webpack_require__(513);
 
 	var _Entry2 = _interopRequireDefault(_Entry);
 
-	var _immutable = __webpack_require__(516);
+	var _immutable = __webpack_require__(518);
 
 	var _immutable2 = _interopRequireDefault(_immutable);
 
@@ -38782,7 +38840,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = _createToCElementsFromList;
 
 /***/ },
-/* 524 */
+/* 525 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38797,9 +38855,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reactRedux = __webpack_require__(469);
 
-	var _reader = __webpack_require__(518);
+	var _reader = __webpack_require__(498);
 
-	var _TocPresenter = __webpack_require__(525);
+	var _TocPresenter = __webpack_require__(526);
 
 	var _TocPresenter2 = _interopRequireDefault(_TocPresenter);
 
@@ -38823,7 +38881,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Container;
 
 /***/ },
-/* 525 */
+/* 526 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38836,19 +38894,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactAddonsPureRenderMixin = __webpack_require__(512);
+	var _reactAddonsPureRenderMixin = __webpack_require__(514);
 
 	var _reactAddonsPureRenderMixin2 = _interopRequireDefault(_reactAddonsPureRenderMixin);
 
-	var _readerConstants = __webpack_require__(520);
+	var _readerConstants = __webpack_require__(521);
 
 	var _readerConstants2 = _interopRequireDefault(_readerConstants);
 
-	var _screenHelper = __webpack_require__(515);
+	var _screenHelper = __webpack_require__(517);
 
 	var _screenHelper2 = _interopRequireDefault(_screenHelper);
 
-	var _NavigationToggle = __webpack_require__(522);
+	var _NavigationToggle = __webpack_require__(523);
 
 	var _NavigationToggle2 = _interopRequireDefault(_NavigationToggle);
 
