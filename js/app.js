@@ -39974,7 +39974,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            // Note that setting this based on the siblings is iffy:
 	            // in-between values may not have siblings yet,
 	            // but the state already set
-	            isOpen: this.props.level === 0
+	            isOpen: false
 	        };
 	    },
 

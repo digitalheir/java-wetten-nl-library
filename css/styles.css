@@ -12481,7 +12481,7 @@ html, body {
     display: table-cell;
     font-weight: bold; }
   .bwb li {
-    margin-bottom: 8px; }
+    /*margin-bottom: 8px;*/ }
   .bwb .lidnr {
     font-weight: bold;
     /* margin-right: 0.5em; */
@@ -12526,7 +12526,7 @@ html, body {
     padding: 1.5em; }
   .bwb .lid {
     display: table;
-    margin-bottom: 16px; }
+    /*margin-bottom: 16px;*/ }
   .bwb .lid .lidnr {
     vertical-align: top;
     display: table-cell;
