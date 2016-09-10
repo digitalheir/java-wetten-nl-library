@@ -257,8 +257,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    ));
 
 	    searchStore.dispatch((0, _index.setCorpus)(defaultCorpus));
-	    console.log("Default corpus: " + defaultCorpus);
-	    console.log("corpus: " + searchStore.getState().corpus);
+	    // console.log("Default corpus: " + defaultCorpus)
+	    // console.log("corpus: " + searchStore.getState().corpus)
 
 	    _reactDom2.default.render(_react2.default.createElement(
 	        _reactRedux.Provider,
@@ -38555,6 +38555,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    render: function render() {
 	        var _props = this.props;
+	        var children = _props.children;
 	        var navigationIsOpen = _props.navigationIsOpen;
 	        var toggleNavigation = _props.toggleNavigation;
 	        var closeNavigation = _props.closeNavigation;
@@ -38589,7 +38590,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    _react2.default.createElement(
 	                        'nav',
 	                        { id: 'document-navigation' },
-	                        _react2.default.createElement('ol', null)
+	                        _react2.default.createElement(
+	                            'ol',
+	                            null,
+	                            children
+	                        )
 	                    )
 	                )
 	            ),
@@ -38959,6 +38964,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    render: function render() {
 	        var _props = this.props;
+	        var children = _props.children;
 	        var navigationIsOpen = _props.navigationIsOpen;
 	        var toggleNavigation = _props.toggleNavigation;
 	        var closeNavigation = _props.closeNavigation;
@@ -38993,7 +38999,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    _react2.default.createElement(
 	                        'nav',
 	                        { id: 'document-navigation' },
-	                        _react2.default.createElement('ol', null)
+	                        _react2.default.createElement(
+	                            'ol',
+	                            null,
+	                            children
+	                        )
 	                    )
 	                )
 	            ),
