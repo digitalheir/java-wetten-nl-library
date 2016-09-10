@@ -126,7 +126,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createTocElements4 = _interopRequireDefault(_createTocElements3);
 
-	var _TocContainer3 = __webpack_require__(525);
+	var _TocContainer3 = __webpack_require__(526);
 
 	var _TocContainer4 = _interopRequireDefault(_TocContainer3);
 
@@ -34282,6 +34282,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	//import {close} from '../../../actions/reader';
+
 	exports.default = _react2.default.createClass({
 	    displayName: 'Entry',
 
@@ -34292,8 +34294,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	        label: _react2.default.PropTypes.string,
 	        sublabel: _react2.default.PropTypes.string,
 	        hasChildren: _react2.default.PropTypes.bool.isRequired,
-	        onClick: _react2.default.PropTypes.func.isRequired,
 	        level: _react2.default.PropTypes.number
+	    },
+
+	    _onNavigateToItem: function _onNavigateToItem(e) {
+	        console.log("item clicked, screen is narrow: " + _screenHelper2.default.isNarrow());
+	        if (_screenHelper2.default.isNarrow()) {
+	            // ReaderActions.close();//TODO
+	        }
 	    },
 
 	    _toggleOpen: function _toggleOpen(e) {
@@ -34301,14 +34309,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this.setState({
 	            isOpen: !this.state.isOpen
 	        });
-	    },
-
-	    componentDidUpdate: function componentDidUpdate(prevProps, prevState) {
-	        console.log("ToC entry updated");
-	        //console.log(prevProps)
-	        //console.log(this.props)
-	        //console.log(prevState)
-	        //console.log(this.state)
 	    },
 
 	    getDefaultProps: function getDefaultProps() {
@@ -34322,15 +34322,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    getInitialState: function getInitialState() {
 	        return {
-	            // Note that setting this based on the siblings is iffy:
-	            // in-between values may not have siblings yet,
-	            // but the state already set
-	            isOpen: this.props.level === 0
+	            isOpen: this.props.level === 0 && this.props.siblingCount <= 0
 	        };
 	    },
 
 	    render: function render() {
-	        //console.log("render toc-entry")
+	        //console.log("render toc-entry, level:"+this.props.level+", siblings:"+this.props.siblingCount);
 
 	        var hasChildren = this.props.hasChildren;
 	        var label = this.props.label ? _react2.default.createElement(
@@ -34363,7 +34360,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        var className = "title-container labelling ";
 
+	        var id = (this.props.id.indexOf("#") === 0 ? '' : '#') + this.props.id;
 	        if (hasChildren) {
+	            if (false) {
+	                console.log(this.props.label + ":" + this.props.sublabel + ":" + this.props.id + ":" + "this.props.level:" + this.props.level + ", this.props.siblingCount:" + this.props.siblingCount + ", this.state.isOpen:" + this.state.isOpen);
+	            }
 	            className = className + ' sublist-labelling';
 	            var topClass = 'sublist' + (this.state.isOpen ? '' : ' collapsed');
 
@@ -34375,7 +34376,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    { className: className },
 	                    _react2.default.createElement(
 	                        'a',
-	                        { onClick: this._toggleOpen },
+	                        { href: id, onClick: this._toggleOpen },
 	                        _react2.default.createElement(
 	                            'div',
 	                            { className: 'title-container' },
@@ -34396,7 +34397,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    { className: className },
 	                    _react2.default.createElement(
 	                        'a',
-	                        { onClick: this.props.onClick, href: '#' + this.props.id },
+	                        { onClick: this._onNavigateToItem, href: id },
 	                        _react2.default.createElement(
 	                            'div',
 	                            { className: 'title-container' },
@@ -39857,7 +39858,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Entry = __webpack_require__(513);
+	var _Entry = __webpack_require__(525);
 
 	var _Entry2 = _interopRequireDefault(_Entry);
 
@@ -39920,11 +39921,163 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _reactAddonsPureRenderMixin = __webpack_require__(514);
+
+	var _reactAddonsPureRenderMixin2 = _interopRequireDefault(_reactAddonsPureRenderMixin);
+
+	var _screenHelper = __webpack_require__(517);
+
+	var _screenHelper2 = _interopRequireDefault(_screenHelper);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = _react2.default.createClass({
+	    displayName: 'Entry',
+
+	    mixins: [_reactAddonsPureRenderMixin2.default],
+
+	    propTypes: {
+	        id: _react2.default.PropTypes.string.isRequired,
+	        label: _react2.default.PropTypes.string,
+	        sublabel: _react2.default.PropTypes.string,
+	        hasChildren: _react2.default.PropTypes.bool.isRequired,
+	        onClick: _react2.default.PropTypes.func.isRequired,
+	        level: _react2.default.PropTypes.number
+	    },
+
+	    _toggleOpen: function _toggleOpen(e) {
+	        e.preventDefault();
+	        this.setState({
+	            isOpen: !this.state.isOpen
+	        });
+	    },
+
+	    componentDidUpdate: function componentDidUpdate(prevProps, prevState) {
+	        console.log("ToC entry updated");
+	        //console.log(prevProps)
+	        //console.log(this.props)
+	        //console.log(prevState)
+	        //console.log(this.state)
+	    },
+
+	    getDefaultProps: function getDefaultProps() {
+	        return {
+	            label: null,
+	            sublabel: null,
+	            rangeStart: null,
+	            rangeEnd: null
+	        };
+	    },
+
+	    getInitialState: function getInitialState() {
+	        return {
+	            // Note that setting this based on the siblings is iffy:
+	            // in-between values may not have siblings yet,
+	            // but the state already set
+	            isOpen: this.props.level === 0
+	        };
+	    },
+
+	    render: function render() {
+	        //console.log("render toc-entry")
+
+	        var hasChildren = this.props.hasChildren;
+	        var label = this.props.label ? _react2.default.createElement(
+	            'div',
+	            { className: 'label' },
+	            this.props.label
+	        ) : '';
+	        var sublabel = this.props.sublabel ? _react2.default.createElement(
+	            'div',
+	            { className: 'sublabel' },
+	            this.props.sublabel
+	        ) : '';
+
+	        var range = '';
+	        if (this.props.rangeStart) {
+	            if (this.props.rangeEnd) {
+	                range = _react2.default.createElement(
+	                    'div',
+	                    { className: 'range' },
+	                    this.props.rangeStart + " — " + this.props.rangeEnd
+	                );
+	            } else {
+	                range = _react2.default.createElement(
+	                    'div',
+	                    { className: 'range' },
+	                    this.props.rangeStart
+	                );
+	            }
+	        }
+
+	        var className = "title-container labelling ";
+
+	        if (hasChildren) {
+	            className = className + ' sublist-labelling';
+	            var topClass = 'sublist' + (this.state.isOpen ? '' : ' collapsed');
+
+	            return _react2.default.createElement(
+	                'li',
+	                { className: topClass },
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: className },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { onClick: this._toggleOpen },
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'title-container' },
+	                            label,
+	                            sublabel,
+	                            range
+	                        )
+	                    )
+	                ),
+	                this.props.children
+	            );
+	        } else {
+	            return _react2.default.createElement(
+	                'li',
+	                { className: 'item' },
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: className },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { onClick: this.props.onClick, href: '#' + this.props.id },
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'title-container' },
+	                            label,
+	                            sublabel
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }
+	});
+
+/***/ },
+/* 526 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _react = __webpack_require__(299);
+
+	var _react2 = _interopRequireDefault(_react);
+
 	var _reactRedux = __webpack_require__(469);
 
 	var _reader = __webpack_require__(498);
 
-	var _TocPresenter = __webpack_require__(526);
+	var _TocPresenter = __webpack_require__(527);
 
 	var _TocPresenter2 = _interopRequireDefault(_TocPresenter);
 
@@ -39953,7 +40106,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Container;
 
 /***/ },
-/* 526 */
+/* 527 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
