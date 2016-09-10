@@ -40146,14 +40146,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	        //noinspection NodeModulesDependencies
 	        var newWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 	        if (newWidth != this._prevWidth) {
-	            console.log(this.props.navigationIsOpen + ": " + this._prevWidth + "(" + _screenHelper2.default.isNarrow(this._prevWidth) + ") => " + newWidth + " (" + _screenHelper2.default.isNarrow(newWidth) + ")");
-	            // if (
-	            //     (this.props.navigationIsOpen && !ScreenHelper.isNarrow(this._prevWidth) && ScreenHelper.isNarrow(newWidth)) ||
-	            //     (!this.props.navigationIsOpen && !ScreenHelper.isNarrow(newWidth) && ScreenHelper.isNarrow(this._prevWidth))
-	            // ) {
-	            //     //console.log(" -> " + !this.props.navigationIsOpen);
-	            //     this._toggleNavigation();
-	            // }
+	            // console.log(this.props.navigationIsOpen + ": " + this._prevWidth +
+	            //    "(" + ScreenHelper.isNarrow(this._prevWidth) +
+	            //    ") => " + newWidth + " (" + ScreenHelper.isNarrow(newWidth) + ")");
+	            if (this.props.navigationIsOpen && !_screenHelper2.default.isNarrow(this._prevWidth) && _screenHelper2.default.isNarrow(newWidth) || !this.props.navigationIsOpen && !_screenHelper2.default.isNarrow(newWidth) && _screenHelper2.default.isNarrow(this._prevWidth)) {
+	                //console.log(" -> " + !this.props.navigationIsOpen);
+	                this.props.closeNavigation();
+	            }
 	            this._prevWidth = newWidth;
 	        }
 	    },
