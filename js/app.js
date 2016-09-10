@@ -38867,6 +38867,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var mapStateToProps = function mapStateToProps(state, ownProps) {
+	    console.log(ownProps.children.length + " children");
 	    return {
 	        navigationIsOpen: state.navigationIsOpen,
 	        children: ownProps.children
