@@ -70,7 +70,7 @@ public class TestSearch {
             Element gzd = r.getRecordData().getElement();
             String d = getModified(gzd);
             Assert.assertNotNull(d);
-            Assert.assertTrue("2016-01-00".compareTo(d) == -1);
+            Assert.assertTrue("2016-01-00".compareTo(d) < 0);
         }
     }
 
