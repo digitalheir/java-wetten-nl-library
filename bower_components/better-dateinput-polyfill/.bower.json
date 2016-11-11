@@ -1,0 +1,34 @@
+{
+  "name": "better-dateinput-polyfill",
+  "version": "2.0.2",
+  "main": [
+    "dist/better-dateinput-polyfill.js"
+  ],
+  "ignore": [
+    ".*",
+    "test",
+    "src",
+    "index.html",
+    "package.json",
+    "bower.json"
+  ],
+  "keywords": [
+    "better-dom"
+  ],
+  "dependencies": {
+    "better-dom": "~3.0.0",
+    "better-i18n-plugin": "~2.0.0",
+    "better-time-element": "~1.0.0"
+  },
+  "homepage": "https://github.com/chemerisuk/better-dateinput-polyfill",
+  "_release": "2.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.2",
+    "commit": "1943da4dda4499e375895a71b691ed378c617d52"
+  },
+  "_source": "https://github.com/chemerisuk/better-dateinput-polyfill.git",
+  "_target": "^2.0.2",
+  "_originalSource": "better-dateinput-polyfill",
+  "_direct": true
+}
