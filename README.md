@@ -26,4 +26,4 @@ compile 'org.leibnizcenter:wetten-nl:0.9.2'
 ```
 
 ## More
-Inquiries go to m.f.a.trompper@uva.nl.
+Inquiries go to maartentrompper@gmail.com.
