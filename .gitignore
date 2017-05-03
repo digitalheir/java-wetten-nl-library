@@ -13,6 +13,8 @@ bin/
 bower_components/
 .publish/
 
+*.map
+
 ### Node template
 # Logs
 logs
