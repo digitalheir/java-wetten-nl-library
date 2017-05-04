@@ -1,5 +1,5 @@
 @media (max-width: 641px)
-mount-point-search > div {
+#mount-point-search > div {
     margin-right: 0 !important;
 }
 
