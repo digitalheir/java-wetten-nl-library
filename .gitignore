@@ -10,7 +10,6 @@ lib/
 /scratch.*.*
 *-compiled.js
 bin/
-bower_components/
 .publish/
 
 *.map
