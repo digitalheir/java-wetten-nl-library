@@ -17,7 +17,7 @@ public class SampleDocsTest {
     Class clazz = this.getClass();
 
     @Test
-    public void parseSampleDocs() throws JAXBException, SAXException, ParserConfigurationException, ParseException, IOException {
+    public void parseSampleDocs() throws SAXException, ParserConfigurationException, ParseException, IOException, JAXBException {
         for (String bwbId : Constants.SAMPLE_IDS) {
 
             Work work = Work.parse(clazz.getResourceAsStream("/" + bwbId + "/manifest.xml"));
